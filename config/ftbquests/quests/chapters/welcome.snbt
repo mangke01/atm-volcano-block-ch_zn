@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "allthetweaks:atm_star"
+	id: "5B00676D79306EA2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["EnigmaQuip"]
+			image: "atm:textures/questpics/welcome/enigma_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["theVortex"]
+			image: "atm:textures/questpics/welcome/thevortex_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			click: "https://www.youtube.com/c/alfredggmc"
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["AlfredGG"]
+			image: "atm:textures/questpics/welcome/alfred_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["oly2o6"]
+			image: "atm:textures/questpics/welcome/oly206_character.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/alfredgg_name.png"
+			rotation: 0.0d
+			width: 3.396039603960396d
+			x: 6.0d
+			y: 8.13d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/thevortex_name.png"
+			rotation: 0.0d
+			width: 4.048543689320389d
+			x: -6.0d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.1d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/enigma_name.png"
+			rotation: 0.0d
+			width: 3.8412698412698414d
+			x: 2.0d
+			y: 8.29d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/oly2o6.png"
+			rotation: 0.0d
+			width: 2.457142857142857d
+			x: -2.0d
+			y: 8.27d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.9083503054989817d
+			hover: [ ]
+			image: "atm:textures/questpics/welcome/signs/name_bar.png"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 8.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "ftbquests:textures/block/base_input.png"
+			order: -3
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click: "https://discord.gg/3paFjuRfz9"
+			corner: false
+			dev: false
+			height: 1.1446886446886446d
+			hover: ["Join the Discord!"]
+			image: "atm:textures/questpics/discord-logo-vector.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "atm:textures/logosmall.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.2d
+			hover: [ ]
+			image: "minecraft:block/lava_flow"
+			rotation: 0.0d
+			width: 3.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.35d
+			hover: [ ]
+			image: "minecraft:block/magma"
+			order: -2
+			rotation: 0.0d
+			width: 3.35d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			click: "https://www.patreon.com/allthemods"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "atm:textures/questpics/patreon.png"
+			rotation: 0.0d
+			width: 5.3628318584070795d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.7d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/rsquare/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.74d
+			x: 0.0d
+			y: -4.25d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"筹备了这么多年，你终于开始了对巨型&c火山&r的探险！"
+				""
+				"你的目标是在充满岩浆的新基地中拾荒，同时在我们的“熔岩地面”版本中生存。"
+				""
+				"请前往&a开始&r任务章节来开始你的冒险！"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "packmenu:textures/gui/background.png"
+				}
+			}
+			id: "3BC0A50886A3222B"
+			rewards: [{
+				id: "4956CB79E44FB523"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "5A1784C5676CDC62"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			title: "&d欢迎来到&r &c火山大陆！&r"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"在这个整合包中，任务是选择性的。不存在完成某个任务才能解锁什么模组这种情况！"
+				""
+				"主任务线之外的独立任务线用于提供模组教学。如果你想要跟随这个流程，请务必查看主任务线！"
+				""
+				"整合包中的大部分任务都是&2AlfredGG&r制作的。制作不易，如果想要支持他，请点击他在下方的玩家皮肤图片！"
+			]
+			icon: "ftbquests:book"
+			id: "3708A4780ACEB34E"
+			min_width: 250
+			rewards: [{
+				id: "4A56DF6E0204666C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "52BB142F044075B4"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "任务"
+			x: 0.0d
+			y: 0.6d
+		}
+		{
+			description: [
+				"ATM中有很多有用的指令。这里举几个例子："
+				""
+				"&e/skyblock gui&r | 打开空岛地形的图形界面。这是你创建或者参观别人“空”岛的地方！"
+				""
+				"&e/skyblock home&r | 传送回你的空岛出生点。"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/settings.png"
+				}
+			}
+			id: "7658C1C663394E85"
+			min_width: 350
+			rewards: [{
+				id: "5007C73E170C4FF6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10A16F89D4AD238D"
+				title: "有用的指令"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.6d
+		}
+		{
+			description: [
+				"关于认领区块，打开认领地图的默认绑定按键是&6M&r然后点击左上角的地图图标。"
+				""
+				"按住鼠标左键并拖拽以认领区块。"
+				""
+				"要想强制加载区块，shift并左键对应区块。如果成功完成了这个操作，对应区块内将会出现斜线。"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/waypoint_home.png"
+				}
+			}
+			id: "0C93D7A607AB8B83"
+			rewards: [{
+				id: "1B044C35466AFAEF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "103C42C743E2A2DB"
+				title: "认领区块"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.6d
+		}
+	]
+	title: "&d欢迎&r"
+}
