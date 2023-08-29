@@ -1,0 +1,64 @@
+{
+  "itemGroup.resourcechickens.tab": "资源小鸡",
+
+  "entity.resourcechickens.duck_egg": "鸭蛋",
+  "item.resourcechickens.duck_egg": "鸭蛋",
+  "entity.resourcechickens.xp_egg": "经验蛋",
+  "item.resourcechickens.xp_egg": "经验蛋",
+
+  "item.resourcechickens.duck_feather": "鸭羽",
+  "item.resourcechickens.duck": "生鸭肉",
+  "item.resourcechickens.duck_cooked": "烤鸭",
+  "item.resourcechickens.water_egg": "水蛋",
+  "item.resourcechickens.lava_egg": "岩浆蛋",
+  "item.resourcechickens.animal_net": "动物捕捉网",
+  "item.resourcechickens.xp_item": "固化经验",
+  "block.resourcechickens.nest": "鸡窝",
+  "block.resourcechickens.egg_block": "鸡蛋方块",
+  "block.resourcechickens.duck_egg_block": "鸭蛋方块",
+  "block.resourcechickens.grinder": "Grass Grinderer",
+
+  "death.attack.chicken.thorns": "你被多刺鸡扎成刺猬了！",
+  "death.attack.chicken.explode": "你被爆炸鸡炸飞了！",
+  "death.attack.shears": "你被剪刀杀死了！",
+  "death.attack.chicken.radiation": "你被辐射鸡辐射致死！",
+
+  "tip.resourcechickens.growth": "生长阶段：%s",
+  "tip.resourcechickens.gain": "收获：%s",
+  "tip.resourcechickens.strength": "力量：%s",
+  "tip.resourcechickens.egg": "下一次掉落：%s",
+  "tip.resourcechickens.baby": "幼崽 %s",
+  "tip.resourcechickens.nodrop": "这只鸡没有掉落物",
+
+  "tip.resourcechickens.hold": "按住shift查看更多信息",
+  "tip.resourcechickens.parents": "父母：",
+  "tip.resourcechickens.spawns": "自然生成：",
+  "tip.resourcechickens.bred": "无法被饲养",
+  "tip.resourcechickens.unknown": " - 未知： %s",
+  "tip.resourcechickens.growing": "长大时间： %s",
+  "tip.resourcechickens.seeds": "需要种子",
+  "tip.resourcechickens.conv": "对话：%s",
+
+  "subtitle.resourcechickens.duck_ambient": "鸭子：嘎~",
+  "subtitle.resourcechickens.duck_hurt": "鸭子：受伤",
+  "subtitle.resourcechickens.duck_death": "鸭子：死亡",
+  "subtitle.resourcechickens.radiation": "鸡：辐射",
+
+  "jei.resourcechickens.breeding": "小鸡培育",
+  "jei.resourcechickens.drops": "小鸡产出",
+  "jei.resourcechickens.name": "§3名称：§5%s",
+  "jei.resourcechickens.health": "§3基础生命：§5%s",
+  "jei.resourcechickens.speed": "§3基础速度§5%s",
+  "jei.resourcechickens.drop_time": "§3产物掉落时间：§5%s",
+  "jei.resourcechickens.drop_item": "§3产物：§5%s",
+  "jei.resourcechickens.conv": "§3对话质量：§5%s",
+  "jei.resourcechickens.breed": "§3是否能被饲养：§5%s",
+  "jei.resourcechickens.spawns": "§3自然生成：§5%s",
+  "jei.resourcechickens.spawns_in": "§3生成在：§5%s",
+  "jei.resourcechickens.spawns_out": "§3户外生成：§5%s",
+
+  "jei.true": "是",
+  "jei.false": "否",
+
+  "config.jade.plugin_minecraft.resourcechickens": "whut"
+}
