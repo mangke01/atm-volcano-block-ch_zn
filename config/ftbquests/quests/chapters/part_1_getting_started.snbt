@@ -372,7 +372,7 @@
 		{
 			dependencies: ["0D89265B11DC62CF"]
 			description: [
-				"你很有智慧并且总是提前规划。在船上，你一定要带上&a一棵树&r来满足你在火山内部的所有需求。"
+				"你很有智慧并且总是提前规划。在船上，你一定提前带上了&a一棵树&r来满足你在火山内部的所有需求。"
 				""
 				"我们要把它砍掉了"
 			]
@@ -424,7 +424,7 @@
 		}
 		{
 			description: [
-				"一开始你会出生在火山大厅。如果你想要进入火山拾荒来获得所有的资源，那么你需要先创建你自己开局的船！"
+				"一开始你会出生在火山大厅。如果你想要进入火山拾荒来获得所有的资源，那么你需要先创建开局的船！"
 				""
 				"使用指令&a/skyblock gui&r 来打开一个界面。在这里创建你的第一个小组并选择&a初始船&r驶入火山！"
 			]
@@ -683,7 +683,7 @@
 			description: [
 				"我们的发展终于要步入正轨了！"
 				""
-				"To get our starting resources, we'll need to make a &eSieve&r using the wood we've gathered. Using string, we can make a &aString Mesh&r that we can then put into the &eSieve&r."
+				"为了获得一些起步资源，我们要用刚刚收集的木头制作一个&e筛子&r。我们可以用木棍搭建一个&a筛网&r然后把它放进&e筛子&r里。"
 			]
 			icon: "exnihilosequentia:oak_sieve"
 			id: "2E82D3BBE7966548"
@@ -714,16 +714,16 @@
 					type: "item"
 				}
 			]
-			title: "More Shaking Necessary"
+			title: "需要晃动更多次"
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["6CF9F52E5880305C"]
 			description: [
-				"That tree was hiding some dirt beneath it, and I've got a feeling that dirt has something we can use...."
+				"那棵树的下面藏了一格土，我感觉我们可以利用泥土做一些事……"
 				""
-				"By sneak-right clicking on dirt, you can get pebbles. This will be used to create several types of stone blocks!"
+				"对着泥土潜行右键，你就能捡到各种小石子。它们可以用来合成各种石头！"
 			]
 			icon: "exnihilosequentia:stone_pebble"
 			id: "0724FE577ED68B4F"
@@ -755,16 +755,16 @@
 					type: "item"
 				}
 			]
-			title: "Stone Shakedown"
+			title: "石头自由"
 			x: 1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2E82D3BBE7966548"]
 			description: [
-				"Run some &aGravel&r through your Sieve with the String Mesh in it to get some &9Flint&r. We'll need this to upgrade our meshes to get more resources!"
+				"把一些&a沙砾&r放到装了筛网的筛子上来获取&9燧石&r。我们要升级筛网来获取更多资源！"
 				""
-				"Tip: Placing more than 1 Sieve in an area will allow you to sieve multiple items at once, up to a 5x5."
+				"提示：在一片区域放置多个筛子可以一次性同时筛选多个物品，最大连锁筛的距离是5x5。"
 			]
 			icon: "exnihilosequentia:flint_mesh"
 			id: "615C32F20FF545DE"
@@ -796,16 +796,16 @@
 					type: "item"
 				}
 			]
-			title: "&aSieve It All Out&r"
+			title: "&a全部筛出来&r"
 			x: 0.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["5FE4C70C879D1BE8"]
 			description: [
-				"Flint can't get you too much, so you want to upgrade to an &bIron Mesh&r as fast as possible."
+				"燧石满足不了你的需求，所以你想尽快升级成&b铁筛网&r。"
 				""
-				"This gives us a lot more resources to work with, including &cRedstone&r and &eGlowstone&r."
+				"这样我们就有了更多可以支配的资源，包括&c红石&r和&e萤石&r。"
 			]
 			id: "05F1C43D75DFAEFB"
 			rewards: [
@@ -834,16 +834,16 @@
 				item: "exnihilosequentia:iron_mesh"
 				type: "item"
 			}]
-			title: "The Real Upgrade"
+			title: "真正的升级"
 			x: 0.0d
 			y: 13.75d
 		}
 		{
 			dependencies: ["615C32F20FF545DE"]
 			description: [
-				"After upgrading our Sieve to a Flint Mesh, we're able to get a lot of metal resources by sieving Gravel."
+				"在升级成燧石筛网之后，我们可以通过筛选沙砾来获得很多金属资源。"
 				""
-				"Might be a good idea to start looking into a better storage solution while you're at it."
+				"这个时候是寻找更好的存储方案的绝佳时机。"
 			]
 			id: "5FE4C70C879D1BE8"
 			rewards: [
@@ -872,13 +872,13 @@
 					type: "item"
 				}
 			]
-			title: "We've Struck &bMetal&r"
+			title: "我们有了坚固的结构&b金属&r"
 			x: 0.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["6CF9F52E5880305C"]
-			description: ["&eBarrels&r are used to convert several fluids into items or other liquids, or creating more dirt by composting your saplings!"]
+			description: ["&e桶&r的作用是将一些流体转变为物品，或其他液体，或用树苗堆肥来形成泥土！"]
 			id: "6371B58012142EE9"
 			rewards: [
 				{
@@ -903,7 +903,7 @@
 							value: "exnihilosequentia:barrels"
 						}
 					}
-					title: "Any #exnihilosequentia:barrels"
+					title: "任意无中生有模组的桶"
 					type: "item"
 				}
 				{
@@ -912,16 +912,16 @@
 					type: "item"
 				}
 			]
-			title: "&2Barrels&r Are Your Friends"
+			title: "&2桶&r是你的好朋友"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6FBA15B4968426FC"]
 			description: [
-				"With a Ceramic Bucket of Lava and Water, we can create a &3Cobblestone Generator&r. There are several tiers you can choose from to make."
+				"用陶瓷桶分别装水和岩浆，我们能合成一个&3刷石机&r。有很多不同等级的刷石机可供选择。"
 				""
-				"This will automatically output cobble into an inventory placed on top of it."
+				"这个机器可以向上方的容器自动输出圆石。"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -971,19 +971,19 @@
 						]
 					}
 				}
-				title: "Cobble Generator"
+				title: "刷石机"
 				type: "item"
 			}]
-			title: "Quit Punching The Ground"
+			title: "停止在地上打洞"
 			x: -2.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["05F1C43D75DFAEFB"]
 			description: [
-				"You know what you can get with an Iron Mesh? &cRedstone&r!"
+				"你知道铁筛网能筛出什么吗？&c红石&r！"
 				""
-				"Sieve some Dust using the Iron Mesh to get Redstone as well as several other useful mats."
+				"用铁筛网筛选一些尘土来获得红石和其他有用的粉尘。"
 			]
 			id: "2A1BDE5A0001D212"
 			rewards: [{
@@ -996,16 +996,16 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			title: "&cRedstone&r"
+			title: "&c红石&r"
 			x: 0.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["2A1BDE5A0001D212"]
 			description: [
-				"Make a &3Stone Barrel&r and place some Lava inside. Using a piece of &cRedstone&r on it will convert it to Netherrack!"
+				"做一个&3石桶&r，把一些岩浆放进去。用&c红石粉&r对它右键就能生成下界岩！"
 				""
-				"This can be crushed using a hammer, then sieving the Crushed Netherrack for more resources!"
+				"下界岩可以被锤子捣碎，然后就可以筛选粉碎的下界岩来获取更多资源了！"
 			]
 			id: "3DCC109CCC6397C0"
 			rewards: [
@@ -1037,11 +1037,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Tired of hammering and sieving items manually? Of course you are!"
+				"手工捶打筛选物品太累了？可不是吗！"
 				""
-				"Using the power we've created, we can automate all of our resource generation using &dFlux Machines&r."
+				"使用产生的能量，我们可以发动&d通量机器&r来对我们的资源获取进行自动化改造。"
 				""
-				"These can be upgraded as well to increase their processing speeds. For more information, check them out in JEI!"
+				"这也能加快它们的生产速度。更多信息请前往jei查阅！"
 			]
 			id: "6E0D5FF652DAC40D"
 			rewards: [
@@ -1081,13 +1081,13 @@
 					type: "item"
 				}
 			]
-			title: "&cRF&r &dAutomation&r"
+			title: "&c红石通量（RF）&r &d自动化&r"
 			x: 0.0d
 			y: 22.5d
 		}
 		{
 			dependencies: ["05F1C43D75DFAEFB"]
-			description: ["The &bDiamond Mesh&r unlocks a few more resources, like &dGhast Tears&r."]
+			description: ["&b钻石筛网&r解锁了更多资源，比如&d恶魂之泪&r。"]
 			icon: "exnihilosequentia:diamond_mesh"
 			id: "3212D98301DEC329"
 			rewards: [
@@ -1109,7 +1109,7 @@
 				item: "exnihilosequentia:diamond_mesh"
 				type: "item"
 			}]
-			title: "Diamond Mesh"
+			title: "钻石筛网"
 			x: -1.5d
 			y: 15.0d
 		}
@@ -1168,7 +1168,7 @@
 		}
 		{
 			dependencies: ["681226FA1D22A35D"]
-			description: ["Using Sand on a Barrel with &dWitch Water&r in it will give you Soul Sand. "]
+			description: ["对装有&d巫水&r的桶右键使用沙子会得到灵魂沙。"]
 			id: "78DD5B06DDA41340"
 			rewards: [
 				{
@@ -1194,9 +1194,9 @@
 		{
 			dependencies: ["681226FA1D22A35D"]
 			description: [
-				"To get slime, you'll need to first get &3Brown Mushrooms&r by using &dMycelium Spores&r on a Barrel with Witch Water inside of it."
+				"想要获得史莱姆，你要先对装有巫水的桶使用&d菌丝体孢子&r得到&3棕色蘑菇。"
 				""
-				"This will get you a &3Brown Mushroom Block&r, which has a chance to drop &3Brown Mushrooms&r when broken. Once you have a few, use the Brown Mushroom on more Witch Water to get yourself a &aSlime Block&r!"
+				"你会得到一个&3棕色蘑菇方块&r，挖掉它有概率掉落&3棕色蘑菇&r。你有一些蘑菇之后，对装有巫水的桶右键使用，就能得到年轻人的第一个&a史莱姆方块&r了！"
 			]
 			id: "342BDFF90B95D338"
 			rewards: [
@@ -1224,16 +1224,16 @@
 					type: "item"
 				}
 			]
-			title: "Getting Slime"
+			title: "获得黏液"
 			x: -2.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["6371B58012142EE9"]
 			description: [
-				"There isn't any &9Water&r inside of a Volcano, surprisingly."
+				"惊喜吧，火山里没有任何&9水&r。"
 				""
-				"For us to get some Water, we'll need to create a &aCrucible&r from the wood we've gathered. Place in a sapling and let it slowly transform into 250mb of water."
+				"我们需要用之前收集的木头制作&a坩埚&r，这样就能获得水了。在坩埚里放入树苗，可以缓慢的渗出250毫桶（mb）的水。"
 			]
 			icon: "minecraft:water"
 			id: "6B9207A47D801262"
@@ -1288,13 +1288,13 @@
 				title: "Wooden Crucibles"
 				type: "item"
 			}]
-			title: "Getting &9Water&r"
+			title: "获得&9水&r"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2E82D3BBE7966548"]
-			description: ["Running &aDirt&r through a Sieve will give you a lot of items, but most importantly you can get some &dMycelium Spores&r. This can be used to convert Dirt into Mycelium."]
+			description: ["用筛子筛选&a泥土&r会给你很多东西，但最重要的东西是&d菌丝体孢子&r。它可以把泥土转变为菌丝。"]
 			id: "0DF27AD3782AA9AD"
 			rewards: [
 				{
@@ -1314,16 +1314,16 @@
 				item: "exnihilosequentia:mycelium_spores"
 				type: "item"
 			}]
-			title: "&aSpores&r and More"
+			title: "&a孢子&r和其他东西"
 			x: -1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["0DF27AD3782AA9AD"]
 			description: [
-				"Place down a piece of Dirt, convert it to &dMycelium&r using the spores, then place a Barrel on top of it."
+				"在地上放下一个泥土，使用孢子将其转变为&d菌丝&r，然后在它顶部放一个桶。"
 				""
-				"If you fill that Barrel with &9Water&r, it'll eventually convert to &dWitch Water&r."
+				"现在向桶里装上&9水&r，水最终会转变为&d巫水&r。"
 			]
 			icon: {
 				Count: 1b
@@ -1356,16 +1356,16 @@
 				to_observe: "minecraft:mycelium"
 				type: "observation"
 			}]
-			title: "&dWitch&r &9Water&r"
+			title: "&d巫&r&9水&r"
 			x: -2.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["05F1C43D75DFAEFB"]
 			description: [
-				"If we want to visit the &dEnd&r, we'll need to sieve down some Crushed End Stone."
+				"如果想要去&d末地&r，我们需要筛选一些粉碎的末地石。"
 				""
-				"To get this, you'll first need to make a &3Stone Barrel&r and fill it with Lava. From there, you'll use &eGlowstone&r to convert it into End Stone, which you can break with a hammer to get Crushed End Stone."
+				"首先你需要做一个&3石桶&r，并往里装上岩浆。然后对石桶右键使用&e萤石&r来获得末地石。末地石可以被锤子破坏，变成粉碎的末地石。"
 			]
 			id: "09E8AEF40036BA00"
 			rewards: [
@@ -1387,16 +1387,16 @@
 				item: "exnihilosequentia:crushed_end_stone"
 				type: "item"
 			}]
-			title: "Getting &eEnd Stone&r"
+			title: "获得&e末地石&r"
 			x: 1.5d
 			y: 15.0d
 		}
 		{
 			dependencies: ["7B41510DE4B01580"]
 			description: [
-				"Want a simple generator? &9Generator Galore&r is a mod that adds generators that are easy to use."
+				"想要简单的发电机吗？&9Generator Galore模组&r增加了一些用起来很容易的发电机。"
 				""
-				"This one burns items into energy. It can also be upgraded!"
+				"这种发电机通过燃烧物品产生能量。它们也可以升级！"
 			]
 			hide_dependency_lines: false
 			id: "408E13728FE517D0"
@@ -1411,13 +1411,13 @@
 				item: "generatorgalore:iron_generator"
 				type: "item"
 			}]
-			title: "Starter Power: &aGenerator Galore&r"
+			title: "初始能源：&aGenerator Galore模组&r"
 			x: 0.0d
 			y: 20.5d
 		}
 		{
 			dependencies: ["7B41510DE4B01580"]
-			description: ["&9Mekanism&r is great for generating power, and the &eWind Generator&r gives you an easy power source using the wind inside of the Volcano."]
+			description: ["&9通用机械模组&r很适合用来发电，&e风力发电机&r让你能够轻松利用火山内的风力资源。"]
 			hide_dependency_lines: false
 			id: "286D261F294AFCE5"
 			rewards: [{
@@ -1431,13 +1431,13 @@
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
-			title: "Starter Power: &aMekanism"
+			title: "初始能源：&a通用机械"
 			x: -0.5d
 			y: 20.0d
 		}
 		{
 			dependencies: ["7B41510DE4B01580"]
-			description: ["&9RFTools&r provides a simple to use Coal Generator. You place some coal inside, and it'll burn it down into power."]
+			description: ["&9RF工具箱模组&r提供了容易使用的煤炭发电机。在里面放一些煤，就能燃烧产生能量了。"]
 			hide_dependency_lines: false
 			id: "6DC8F1F6199C1197"
 			rewards: [{
@@ -1451,18 +1451,18 @@
 				item: "rftoolspower:coalgenerator"
 				type: "item"
 			}]
-			title: "Starter Power: &aRFTools&r"
+			title: "初始能源：&aRF工具箱&r"
 			x: 0.5d
 			y: 20.0d
 		}
 		{
 			dependencies: ["3B0B40986BCF50E1"]
 			description: [
-				"Passive Mobs don't want to live in a Volcano because they don't have any grass to eat."
+				"友善生物因为没有草吃而不想在火山里生活。"
 				""
-				"But that's all about to change."
+				"但现在情况变了"
 				""
-				"Make an area of &2Grass&r for them, and they will eventually spawn in."
+				"为它们准备一片草地，过一段时间它们就会在那里生成。"
 			]
 			icon: {
 				Count: 1b
@@ -1479,7 +1479,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Build It And They Will Come"
+			subtitle: "建设好了它们就来了"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -1491,22 +1491,22 @@
 				id: "079C6919B4886C9C"
 				observe_type: 5
 				timer: 0L
-				title: "Observe A Cow"
+				title: "看到牛"
 				to_observe: "minecraft:cow"
 				type: "observation"
 			}]
-			title: "Spawning &ePassive&r Mobs"
+			title: "生成&e友善&r生物"
 			x: 2.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["09E8AEF40036BA00"]
 			description: [
-				"To visit the &dEnd&r, we won't be finding the portal. Instead, we're going to eat Cake."
+				"想要去&d末地&r的话，我们是找不到传送门的。但我们可以吃末地蛋糕。"
 				""
-				"You'll need some &bGhast Tears&r to make this, which you'll need to have a Diamond Mesh for."
+				"制作它需要一些&b恶魂之泪&r，这是获得钻石筛网之后才能得到的。"
 				""
-				"Place this down and take a bite, you'll be teleported to &dThe End&r."
+				"把蛋糕放下来然后吃一块，你就会传送到&d末地。"
 			]
 			id: "48175200A71D3DDE"
 			rewards: [
@@ -1534,16 +1534,16 @@
 				item: "exnihilosequentia:end_cake"
 				type: "item"
 			}]
-			title: "To &dThe End&r"
+			title: "前往&d末地&r"
 			x: 1.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["5BABFF63EBAD0674"]
 			description: [
-				"Turn out the lights."
+				"把灯关上。"
 				""
-				"Jokes aside, lots of useful resources come from creating some kind of &3Mob Farm&r. You can start by creating a dark room for all of your spawning needs."
+				"不开玩笑了，建造&3刷怪塔&r能获得很多有用的资源。一开始你可以先建一个满足刷怪条件的小黑屋。"
 			]
 			icon: {
 				Count: 1b
@@ -1571,7 +1571,7 @@
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
-			title: "Spawning &cHostile&r Mobs"
+			title: "生成&c敌对&r生物"
 			x: 2.0d
 			y: 10.5d
 		}
@@ -1581,13 +1581,13 @@
 				"3CF99358776F9AAA"
 			]
 			description: [
-				"So you've made enough water for a bucket. But you don't have a bucket."
+				"现在你的水已经够一桶了。但是你还没有水桶。"
 				""
-				"Thankfully you can make &aSand&r from hammering Gravel. Smelt that down in a furnace to get some glass, then make a &bGlass Bottle&r to transfer the &9water&r from the Crucible into a Barrel."
+				"还好你可以用锤子捣碎沙砾获得&a沙子&r。在熔炉里烧一些玻璃，做一个&b玻璃瓶&r来把&9水&r从坩埚转移到木桶里。"
 				""
-				"The Barrel is how we'll transform liquids into other useful items and liquids. Using a piece of &eDust&r on a full Barrel of water gives you Clay!"
+				"桶，是我们把液体转变为其他有用的物品或液体的地方。对装满水的桶右键使用&e尘土&r就会得到黏土！"
 				""
-				"From here, you can make &7Ceramic Buckets&r until you get Iron!"
+				"从现在开始，你可以制作并使用&7陶瓷桶&r直到获得铁！"
 			]
 			id: "6FBA15B4968426FC"
 			rewards: [
@@ -1621,18 +1621,18 @@
 					type: "item"
 				}
 			]
-			title: "Moving Liquids"
+			title: "转移液体"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2A1BDE5A0001D212"]
 			description: [
-				"If we want to give machines power, we'll need a way to transfer the power out of any generator we make."
+				"如果想要给机器提供能量，我们需要把能量从发电机传输过去"
 				""
-				"There are several easy to make cables to use for this. Take your pick!"
+				"有很多制作起来很简单的线缆可以传输能量。随便选一个吧！"
 				""
-				"Note: For the Energy Pipe, you'll need to use the &aPipe Wrench&r to set the pipe to extract from a generator by sneak-right clicking the side of the pipe closest to the generator."
+				"注意：关于能量管道，你需要使用&a管道扳手&r来调节管道与发电机相连，方法是拿着管道扳手对着管道靠近发电机的一面潜行右键。"
 			]
 			id: "7B41510DE4B01580"
 			rewards: [{
@@ -1666,16 +1666,16 @@
 				title: "Basic Power Cables"
 				type: "item"
 			}]
-			title: "Transferring Power"
+			title: "传输能量"
 			x: 0.0d
 			y: 19.5d
 		}
 		{
 			dependencies: ["5BABFF63EBAD0674"]
 			description: [
-				"Aside from keeping KFC in business, Chickens provide a ton of value by creating &aResource Chickens&r."
+				"为了保证肯德基正常营业，发展&a资源小鸡模组&r可以让小只因提供更多价值。"
 				""
-				"You might see several types of chickens spawning in the world, but you should totally &mcapture&r save them from the Colonel."
+				"你可能已经见过很多种小鸡了，但你完全应该&m抓住&r它把它从上校那里救出来。"
 			]
 			icon: {
 				Count: 1b
@@ -1709,18 +1709,18 @@
 				}
 				type: "item"
 			}]
-			title: "Chickens."
+			title: "小鸡。"
 			x: 3.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["1E02CD6D9E56051A"]
 			description: [
-				"The &2Nest&r is the best way to automate your Resource Chickens."
+				"使用&2鸡窝&r是让你的资源小鸡自动化的最好方法。"
 				""
-				"When seeds and a Chicken are placed in the Nest, they will automatically output their resource over time into an inventory below them. You can also pipe in seeds from any side."
+				"当种子和鸡被放在鸡窝里时，鸡窝会随时间推移自动把资源输出到下方的容器中。你也可以用管道从别的地方输入种子。"
 				""
-				"To place a chicken in a Nest, use your &bAnimal Capture Net&r!"
+				"要想把鸡放到鸡窝里，使用你的&b动物捕捉网&r！"
 			]
 			id: "0A84BA50AB58F496"
 			rewards: [
@@ -1740,20 +1740,20 @@
 				item: "resourcechickens:nest"
 				type: "item"
 			}]
-			title: "The &2Chicken Nest&r"
+			title: "&2鸡窝&r"
 			x: 4.25d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0A84BA50AB58F496"]
 			description: [
-				"&bChickens&r can be bred the same way you'd breed them in Vanilla using seeds!"
+				"&b鸡&r像原版一样可以用种子饲养！"
 				""
-				"Unlike Vanilla however, Chickens have certain stats that can be passed down and upgraded through Breeding."
+				"但与原版不同的是，鸡的某些属性可以通过配种繁殖来继承和升级。"
 				""
-				"Stats can be upgraded to increase the product output of each chicken, with a max of 10 in each stat."
+				"属性升级能加快鸡产出资源的输出。每项属性最大值为10。"
 				""
-				"Get out there and make some chicken babies!"
+				"快去培育小鸡吧！"
 			]
 			icon: {
 				Count: 1b
@@ -1768,16 +1768,16 @@
 				title: "Breeding Chickens"
 				type: "checkmark"
 			}]
-			title: "&cBreeding&r &bChickens&r"
+			title: "给&b小鸡&r&c配种&r"
 			x: 3.75d
 			y: 11.5d
 		}
 		{
 			dependencies: ["0A84BA50AB58F496"]
 			description: [
-				"Vanilla &bChickens&r can be converted to &aResource Chickens&r by using the resource you want to convert the chicken to on the &bChicken&r."
+				"原版的&b鸡&r可以转变为&a资源小鸡&r中的鸡，具体方法是使用大量你想要的资源对&b原版鸡&r右键。"
 				""
-				"It takes 250 of an item to convert the chicken."
+				"需要250个物品才能转变。"
 			]
 			icon: {
 				Count: 1b
@@ -1797,18 +1797,18 @@
 				title: "Converting Chickens"
 				type: "checkmark"
 			}]
-			title: "&aConverting&r &bChickens&r"
+			title: "&a转变&r&b小鸡&r"
 			x: 4.75d
 			y: 11.5d
 		}
 		{
 			dependencies: ["5FE4C70C879D1BE8"]
 			description: [
-				"Miss those old days of shocking yourself with uninsulated cables? Never experienced that kind of pain?"
+				"怀念那些被没覆盖绝缘层的电缆电击的旧时光吗？还是从来没有经历过这种痛苦？"
 				""
-				"Well look no further as VolcanoBlock brings back the classic tech mod, &9Industrial Craft 2&r."
+				"ATM火山带回了经典的科技模组，&9工业时代2&r."
 				""
-				"You can head over to the &bIC2&r: &9Classic&r chapter if you want to learn more!"
+				"如果想要学到更多东西，你可以去&b工业时代2&r: &9经典版&r章节！"
 			]
 			icon: {
 				Count: 1b
@@ -1825,21 +1825,21 @@
 			}]
 			tasks: [{
 				id: "0B3FABEFE32556CB"
-				title: "Check out IC2C!"
+				title: "查看工业时代2经典版！"
 				type: "checkmark"
 			}]
-			title: "&9Industrial Craft 2: Classic&r"
+			title: "&9工业时代2：经典版&r"
 			x: 1.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["366DC81004BEC65B"]
 			description: [
-				"You should make yourself some new weapons and armor with your new resources."
+				"你应该用新获得的资源为自己打造一些武器装备。"
 				""
-				"Why? Because you can make yourself a &cFireproof Boat&r to go explore! Don't have the materials to make one? Check your Spawn Ship out a little better. :)"
+				"为什么？因为你可以制作一艘&c抗火船&r外出探索了！没有材料制作？仔细看看你的出生船吧。:)"
 				""
-				"Is your spawn island not a ship? Well no matter! Just sieve some crushed netherrack and bone meal the nylium!"
+				"你的出生岛屿不是一艘船？没关系！只要筛选一些粉碎的下界岩然后用骨粉右键菌岩！"
 			]
 			icon: "minecraft:lava"
 			id: "28E97F2E77CC530C"
@@ -1866,21 +1866,21 @@
 						]
 					}
 				}
-				title: "Fireproof Boats"
+				title: "抗火船"
 				type: "item"
 			}]
-			title: "&cLava&r Is Bad For Your Health."
+			title: "&c岩浆&r有害健康。"
 			x: -2.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["2E82D3BBE7966548"]
 			description: [
-				"Once you've sieved some Dirt, you'll likely get &2Grass Seeds&r."
+				"只要你筛选过一些泥土，就很有可能得到&2草种子&r。"
 				""
-				"Planting these on dirt will convert them into Grass. It's not the prettiest, but you did decide to go scavenging in a Volcano."
+				"把它们种到泥土上泥土就会转变为草方块。这不是最漂亮的，但你现在是在火山里拾荒呀。"
 				""
-				"The Grass actually has several uses, like growing flowers by using &bBone Meal&r on it, or something even more important...."
+				"实际上这些草有很多用途，比如用&b骨粉&r可以催出花来，或者是更重要的……"
 			]
 			id: "3B0B40986BCF50E1"
 			rewards: [
@@ -1900,7 +1900,7 @@
 				item: "exnihilosequentia:grass_seeds"
 				type: "item"
 			}]
-			title: "Growing Grass"
+			title: "种草"
 			x: 1.5d
 			y: 8.5d
 		}
