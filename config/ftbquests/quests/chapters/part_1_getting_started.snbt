@@ -1907,15 +1907,15 @@
 		{
 			dependencies: ["5FE4C70C879D1BE8"]
 			description: [
-				"For the next quest, you'll need some of these if you didn't choose a starting island with them."
+				"下一个任务需要用到这个，如果你的初始岛屿没有这些东西，那你就需要制作一些。"
 				""
-				"Make sure to not lose them!"
+				"千万不要把他们弄丢了！"
 				""
-				"If you do however, or if you don't want the easymode, you can easily find a red ship that is made of &4Crimsom Nylium&r and already has some &4Crimson Fungus&r, by moving away from your island. We know the next quest talks about getting a boat so you can move around, but if you chose the harder starting islands, you wouldn't mind crafting a jetpack to look around, would you?"
+				"如果你真的弄丢了，或者是不想这么轻松的得到，那么还是有其它方法的。离开初始岛屿四处找一下，你可以轻松的找到一艘由很多&4绯红菌岩&r组成的红船，上面还有一些&4绯红菌&r。我们知道下一个任务讲的就是获得一艘能够带你四处活动的船，但是既然你选择了一个困难的初始岛屿，那么你一定不介意做一个喷气背包到处飞吧？"
 				""
-				"You can also bonemeal either &4Nyl&r&3ium&r to get the corresponding &4Fun&r&3gus&r."
+				"你也可以用骨粉催熟不同的&4菌&r&3岩&r来获取相应的&4菌&r&3类&r。"
 				""
-				"Twerking also work on the &4Fung&r&3uses&r!"
+				"潜行施肥对&4菌&r&3类&r也有效！"
 			]
 			icon: "minecraft:warped_nylium"
 			id: "366DC81004BEC65B"
@@ -1947,22 +1947,22 @@
 				id: "3024FC59973798B4"
 				type: "checkmark"
 			}]
-			title: "Nylium/Fungus"
+			title: "菌岩/菌类"
 			x: -1.0d
 			y: 12.25d
 		}
 		{
 			dependencies: ["3B0B40986BCF50E1"]
 			description: [
-				"If you don't like to wait, you can use the &9Spirit&r mod to get your mob spawns. "
+				"如果你不喜欢等待，可以用&9灵魂模组&r生成生物。"
 				""
-				"In the next quests you'll learn how to summon some of them within our modpack."
+				"在接下来的任务里你会学到怎么在这个整合包里召唤生物。"
 				""
-				"The mod has a lot more depth to it but we'll only show the passive spawning."
+				"这个模组还有更深奥的部分，但碍于篇幅我们这里只介绍友善生物的生成。"
 				""
-				"Remember that you can check the recipes yourself by using &7JEI&r. "
+				"记住，你可以用&7JEI&r来查看配方。"
 				""
-				"Press the U button or the button you configured to see uses for a particular item while hovering your mouse cursor over it."
+				"把鼠标悬停在你要查看的物品上，按“U”键或者是你自己设置其他的键位来查看该物品在合成表中参与的合成配方。"
 			]
 			icon: "spirit:soul_cage"
 			id: "1E00C6DF9E6C10D4"
@@ -1986,28 +1986,28 @@
 			]
 			shape: "diamond"
 			size: 1.7d
-			subtitle: "Spirit"
+			subtitle: "万物有灵"
 			tasks: [{
 				id: "7C70BC4F3FE1B171"
 				type: "checkmark"
 			}]
-			title: "Alternate Spawning"
+			title: "另外一种生物生成方式"
 			x: 3.4d
 			y: 8.075d
 		}
 		{
 			dependencies: ["1E00C6DF9E6C10D4"]
 			description: [
-				"First of all, you'll need &3Soul Powder&r. A lot of it."
+				"首先，你需要大量&3灵魂粉&r。"
 				""
-				"To get your first &3Soul Powder&r, we gave you a &8Soul Sand&r and some &6Glowstone&r Blocks. You'll also need a &7Flint and Steel&r."
+				"为了让你制作&3灵魂粉&r，我们给了你一个&8灵魂沙&r和一些&6萤石&r。你还需要准备&7燧石和铁&r。"
 				""
-				"Place the &8Soul Sand&r on the floor, and light it on &bfire&r."
+				"把&8灵魂沙&r放到地面上，然后&b点火&r。（图片下面还有字）"
 				""
 				"{image:atm:textures/questpics/spirit/soul_dust.png width:120 height:130 align:1}"
 				""
-				"Then throw all your &6Glowstone&r you want to transform into it. Don't worry, it won't &4burn&r them.. too much."
-				"You can use a full &6Glowstone Block&r for 8 &3Soul Powder&r or a piece of &eGlowstone Dust&r for two."
+				"然后你想转化多少就往火里面扔多少&6萤石粉&r。不要担心，它们不会被&4烧掉&r……"
+				"你可以用一个完整的&6萤石块&r得到8个&3灵魂粉&r或者一个&e萤石粉&r得到2个。"
 			]
 			id: "659B01E92C2A29EA"
 			min_width: 350
@@ -2030,30 +2030,30 @@
 					xp: 10
 				}
 			]
-			subtitle: "Soul Engulfing"
+			subtitle: "灵魂吞噬"
 			tasks: [{
 				id: "0ECB40D2C27DB3DC"
 				item: "spirit:soul_powder"
 				type: "item"
 			}]
-			title: "Starting with the Spirit mod"
+			title: "开始灵魂模组"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["659B01E92C2A29EA"]
 			description: [
-				"To transform souls into other souls, you'll need souls. You don't say."
+				"要把灵魂转化为别的灵魂，你还需要一些灵魂."
 				""
-				"Craft the &3Soul Crystal Shard&r with this layout:"
+				"用这个结构制作&3灵魂水晶碎片&r：（图片下面还有字）"
 				""
 				""
 				"{image:atm:textures/questpics/spirit/soul_crystal_shard.png width:120 height:130 align:1}"
 				""
-				"4x &fBlock of Quartz&r"
-				"1x &7Soul Sand&r"
+				"4x &f石英块&r"
+				"1x &7灵魂沙&r"
 				""
-				"&bLight&r the &7Soul Sand&r in the middle and throw into the fire a single piece of &9Soul Powder&r to get a &3Soul Crystal Shard&r. The blocks used in the structure will be &4consumed&r."
+				"给中间的&7灵魂沙&r&b点火&r并把&9灵魂粉&r扔进火里来获取&3灵魂水晶碎片&r。这个结构的方块会被&4消耗&r。"
 			]
 			id: "03EDAA6C18883AE0"
 			min_width: 300
@@ -2082,16 +2082,16 @@
 		{
 			dependencies: ["03EDAA6C18883AE0"]
 			description: [
-				"Make this altar:"
+				"做一个祭坛结构：（图片下面还有字）"
 				""
 				"{image:atm:textures/questpics/spirit/crude_soul_crystal.png width:120 height:145 align:1}"
 				""
-				"4x &9Soul Slate&r"
-				"1x &7Soul Sand&r"
+				"4x &9灵魂板岩&r"
+				"1x &7灵魂沙&r"
 				""
-				"&bLight&r the &7Soul Sand&r in the middle and throw into the fire your &3Soul Crystal Shard&r to get a &3Crude Soul Crystal&r. The blocks used in the structure will be &4consumed&r."
+				"给中间的&7灵魂沙&r&b点火&r并把你的&3灵魂水晶碎片&r扔进火里来获得&3粗制灵魂水晶&r。结构中的方块会被&4消耗&r。"
 				""
-				"There's an even higher crystal tier, but for the passive mob spawning, this crystal will work."
+				"还有一种纯度更高的灵魂水晶，但是对于友善生物，现在的粗制水晶就可以了。"
 			]
 			id: "43CF0EE1BCC53218"
 			min_width: 300
@@ -2120,9 +2120,9 @@
 		{
 			dependencies: ["659B01E92C2A29EA"]
 			description: [
-				"Now onto the next steps!"
+				"现在进行下一步！"
 				""
-				"We did the math for you and for this step, you'll need 56 &7Deepslate&r to make &9Soul Slate&r so you craft 8 &9Pedestals&r."
+				"我们给你算了一下，这一步你一共需要56个&7深板岩&r来制作&9灵魂板岩&r然后你就能合成8个&9基座&r。"
 			]
 			id: "18F2F2FDF96F17EC"
 			rewards: [
@@ -2149,22 +2149,25 @@
 		{
 			dependencies: ["18F2F2FDF96F17EC"]
 			description: [
-				"Remember when we said a lot of &9Soul Powder&r? Yep, to get all the &3Soul Steel Ingots&r we need using the most efficient method, you'll need at least 8 &9Soul Powder Blocks&r. "
+				"还记得之前说过好几次的&9灵魂粉&r吗？是的，为了得到足够的&3灵魂钢锭&r，我们会用最有效率的方法，你需要8个&8压缩&r&9灵魂粉块&r。"
 				""
-				"Your turn to do the math and the transformation! "
+				"轮到你来计算数量并进行转化了！"
 				""
-				"You'll engulf (throw into the fire to convert) two &7Blocks of Iron&r into two &3Soul Steel Blocks&r. One of the blocks you'll dismantle to get &3Soul Steel&r to use in the recipes."
+				"你要吞噬（把东西扔到火里转化）两个&7铁块&r而转化为两个&3灵魂钢块&r。把其中一块分解成&3灵魂钢锭&r来进行合成。（后面还有一页）"
 				"{@pagebreak}"
-				"This is the setup for converting &7Iron Ingots&r into &3Soul Steel Ingots&r:"
+				"这是&7铁块&r转变成&3灵魂钢块&r的结构（锭的合成配方是一样的，除了材料是普通的不是压缩的这一点之外）："
 				""
 				"{image:atm:textures/questpics/spirit/soul_steel.png width:120 height:150 align:1}"
 				""
-				"4x &9Soul Powder Blocks&r"
-				"1x &7Soul Sand&r"
+				"4x &7压缩&r &9灵魂粉块&r"
+				"1x &7压缩&r &7灵魂沙&r（&3灵魂模组&r）"
 				""
-				"Light the middle and throw the &7Iron Block/Ingot&r in. The blocks used to craft the structure will be &4consumed&r as well."
+				"要得到&3灵魂模组&r的&7压缩灵魂沙&r，只要在工作台上合成&eAllTheCompressed模组&r的&7灵魂沙块1x&r。"
 				""
-				"After you're done with the soul stuff, you'll want to make a &9Crystal Pedestal&r. You'll use 3 of the &7Soul Steel Ingots&r. Ah, and make 6 &7Soul Slates&r as well. You'll use 3 for the &9Crystal Pedestal&r, and the other 3 for the &9Soul Pedestal&r."
+				""
+				"给中间点火并把&7铁块/锭&r扔进去。这个结构的方块也会被&4消耗&r。"
+				""
+				"准备好这些灵魂材料之后，你还需要做一个&9水晶基座&r。你需要3个&7灵魂钢锭&r。还有6个&7灵魂板岩&r，3个用来做&9水晶基座&r，另外3个用来做&9灵魂基座&r。"
 			]
 			id: "04597890A729DE27"
 			min_width: 350
@@ -2194,22 +2197,22 @@
 				"04597890A729DE27"
 			]
 			description: [
-				"Kill any mob while having your &3Crude Soul Crystal&r in your inventory to get a &7Crude soul&r."
+				"把你的&3粗制灵魂水晶&r带在身上时击杀生物可以得到&7粗糙的灵魂&r。"
 				""
-				"You are now finally ready to transform a crude soul into a passive mob!"
+				"你现在已经做好了把粗糙的灵魂转化为友善生物的所有准备了！"
 				""
-				"Using the things you crafted in the earlier steps, make this altar:"
+				"使用前几步合成的东西，搭建这个祭坛：（后面还有两页）"
 				""
 				"{image:atm:textures/questpics/spirit/soul_pedestal.png width:150 height:130 align:1}"
 				"{@pagebreak}"
-				"Check the recipes you can make by pressing the U button or the button you configured to see uses while hovering your mouse cursor over the &9Soul Altar&r."
+				"通过在物品栏中让鼠标悬停在&9灵魂基座&r上方时按“U”键或者是你自己设置的其他按键来查看进行灵魂嬗变所需的各种材料。"
 				""
-				"Right click the ingredients into the pedestals; the order and their position doesn't matter. Then, right click the Soul Pedestal with your &3Crude Soul Crystal&r containing at least 1 Crude Soul."
+				"拿着材料右键基座，就能把材料放到基座上（无所谓材料的放置顺序和位置）。然后用你的粗制灵魂水晶（至少装有1个粗糙的灵魂）右键点击灵魂基座。"
 				""
 				"{image:atm:textures/questpics/spirit/crude_soul_crystal_inventory.png width:100 height:50 align:1}"
-				"Example of a &3Crude Soul Crystal&r containing one &7Crude Soul&r."
+				"包含一个&7粗糙的灵魂&r的&3粗制灵魂水晶&r示意图。（后面还有一页）"
 				"{@pagebreak}"
-				"Finally, right click the center with the activator, you'll see some particles, and then, boom! You got your mob!"
+				"最后，用活化剂右击中心。你会看到一些粒子特效，然后，嘣！你召唤出了你的生物！"
 				""
 				"{image:atm:textures/questpics/spirit/altar_crafting_wolf.png width:150 height:100 align:1}"
 				"{image:atm:textures/questpics/spirit/altar_crafting_wolf_done.png width:150 height:100 align:1}"
@@ -2239,10 +2242,10 @@
 					type: "item"
 				}
 			]
-			title: "Ready to Transform!"
+			title: "准备嬗变！"
 			x: 9.5d
 			y: 8.0d
 		}
 	]
-	title: "Part 1: &aGetting Started&r"
+	title: "第一部分：&a开始&r"
 }
