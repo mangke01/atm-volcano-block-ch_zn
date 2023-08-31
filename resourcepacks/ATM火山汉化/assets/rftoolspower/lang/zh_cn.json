@@ -1,0 +1,89 @@
+{
+    "item.rftoolspower.power_core1": "能量核心（低）",
+    "item.rftoolspower.power_core2": "能量核心（中）",
+    "item.rftoolspower.power_core3": "能量核心（高）",
+    "item.rftoolspower.blazing_rod": "充能烈焰棒",
+    "item.rftoolspower.powercell_card": "能量单元卡",
+
+    "block.rftoolspower.dimensionalcell": "维度能量单元",
+    "block.rftoolspower.dimensionalcell_simple": "维度能量单元（简单）",
+    "block.rftoolspower.dimensionalcell_advanced": "维度能量单元（高级）",
+    "block.rftoolspower.dimensionalcell_creative": "维度能量单元（创造）",
+    "block.rftoolspower.cell1": "能量单元（低）",
+    "block.rftoolspower.cell2": "能量单元（中）",
+    "block.rftoolspower.cell3": "能量单元（高）",
+    "block.rftoolspower.coalgenerator": "燃煤发电机",
+    "block.rftoolspower.power_monitor": "能量监管仪",
+    "block.rftoolspower.power_level": "能量等级检测仪",
+    "block.rftoolspower.endergenic": "末影能发电机",
+    "block.rftoolspower.ender_monitor": "末影监视仪",
+    "block.rftoolspower.pearl_injector": "末影珍珠注入器",
+    "block.rftoolspower.blazing_generator": "烈焰发电机",
+    "block.rftoolspower.blazing_agitator": "烈焰激活器",
+    "block.rftoolspower.blazing_infuser": "烈焰注能器",
+
+    "itemGroup.rftoolspower": "RF工具：能量",
+
+    "message.rftoolspower.shiftmessage": "<按住shift查看信息>",
+
+    "message.rftoolspower.powercell_card.header": "用于连接维度能量单元",
+    "message.rftoolspower.powercell_card.info": "连接：",
+
+    "message.rftoolspower.power_core1.header": "该物品用于合成能量单元",
+    "message.rftoolspower.power_core2.header": "该物品用于合成能量单元",
+    "message.rftoolspower.power_core3.header": "该物品用于合成能量单元",
+
+    "message.rftoolspower.blazing_rod.header": "该物品由烈焰激活器制作，用于充当烈焰发电机的燃料",
+    "message.rftoolspower.blazing_rod.time": "进度：",
+    "message.rftoolspower.blazing_rod.power": "能量：",
+    "message.rftoolspower.blazing_rod.duration": "持续时间：",
+    "message.rftoolspower.blazing_rod.infused": "灌注量：",
+
+    "message.rftoolspower.cell1.header": "这个方块可以存储能量，也可以和其他能量单元组合成多方快结构。用扳手对某一面右键来切换输入/输出模式",
+    "message.rftoolspower.cell1.info": "能量：",
+
+    "message.rftoolspower.cell2.header": "这个方块可以存储能量，也可以和其他能量单元组合成多方快结构。用扳手对某一面右键来切换输入/输出模式",
+    "message.rftoolspower.cell2.info": "能量：",
+
+    "message.rftoolspower.cell3.header": "这个方块可以存储能量，也可以和其他能量单元组合成多方快结构。用扳手对某一面右键来切换输入/输出模式",
+    "message.rftoolspower.cell3.info": "能量：",
+
+    "message.rftoolspower.power_monitor.header": "能量监管仪可以根据目标方块内存储的能量大小输出红石信号",
+
+    "message.rftoolspower.power_level.header": "能量等级检测仪会显示一个数字，表示目标方块内的能量数值。他还会发出和显示出的数字一样强度的红石信号",
+
+    "message.rftoolspower.blazing_generator.header": "用烈焰棒发电。用来发电的烈焰棒必须要先在烈焰激活器中被激活",
+    "message.rftoolspower.blazing_generator.gold": "灌注奖励：产出更多能量",
+
+    "message.rftoolspower.blazing_agitator.header": "这个装置可以激活烈焰棒，使它们能被烈焰发电机利用",
+    "message.rftoolspower.blazing_agitator.gold": "灌注奖励：质量更高的烈焰棒",
+
+    "message.rftoolspower.blazing_infuser.header": "这个装置能用空间碎片、红石粉和萤石粉灌注烈焰棒。被灌注的烈焰棒在烈焰发电机中发电时，将提高发电量和发电时间",
+
+    "message.rftoolspower.endergenic.header": "利用末影珍珠发电。你需要至少两个发电机才能正常工作，而且机器布置起来相对复杂。时机至关重要",
+    "message.rftoolspower.endergenic.gold": "灌注奖励：产生更多能量并且减少消耗珍珠是的能量损失",
+
+    "message.rftoolspower.ender_monitor.header": "这个方块可以检测相邻的末影能发电机的各种变化并发送一个红石信号",
+
+    "message.rftoolspower.pearl_injector.header": "这个机器可以在接收到红石信号后向末影能发电机输入末影珍珠",
+
+    "message.rftoolspower.coalgenerator.header": "这个机器可以烧煤或木炭来生产RF/FE",
+    "message.rftoolspower.coalgenerator.gold": "灌注奖励：产出更多能量并延长燃料燃烧时间",
+    "message.rftoolspower.coalgenerator.info": "生产： ",
+
+    "message.rftoolspower.dimensionalcell.header": "这个方块能存储能量。可以组成大型多空间结构",
+    "message.rftoolspower.dimensionalcell.gold": "灌注奖励：减少长距离运输能量的衰减，增加每游戏刻的RF产出",
+    "message.rftoolspower.dimensionalcell.info": "能量：",
+
+    "message.rftoolspower.dimensionalcell_advanced.header": "这个方块能存储能量。可以组成大型多空间结构",
+    "message.rftoolspower.dimensionalcell_advanced.gold": "灌注奖励：减少长距离运输能量的衰减，增加每游戏刻的RF产出",
+    "message.rftoolspower.dimensionalcell_advanced.info": "能量：",
+
+    "message.rftoolspower.dimensionalcell_simple.header": "这个方块能存储能量。可以组成大型多空间结构",
+    "message.rftoolspower.dimensionalcell_simple.gold": "灌注奖励：减少长距离运输能量的衰减，增加每游戏刻的RF产出",
+    "message.rftoolspower.dimensionalcell_simple.info": "能量：",
+
+    "message.rftoolspower.dimensionalcell_creative.header": "这个方块能存储能量。可以组成大型多空间结构",
+    "message.rftoolspower.dimensionalcell_creative.gold": "灌注奖励：减少长距离运输能量的衰减，增加每游戏刻的RF产出",
+    "message.rftoolspower.dimensionalcell_creative.info": "能量："
+}
