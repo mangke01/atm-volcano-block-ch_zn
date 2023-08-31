@@ -172,7 +172,7 @@
 			corner: false
 			dev: false
 			height: 1.1446886446886446d
-			hover: ["Join the Discord!"]
+			hover: ["加入Discord频道！"]
 			image: "atm:textures/questpics/discord-logo-vector.png"
 			rotation: 0.0d
 			width: 1.0d
