@@ -1437,7 +1437,7 @@
 		}
 		{
 			dependencies: ["7B41510DE4B01580"]
-			description: ["&9RF工具箱模组&r提供了容易使用的煤炭发电机。在里面放一些煤，就能燃烧产生能量了。"]
+			description: ["&9RF工具箱模组&r提供了容易使用的燃煤发电机。在里面放一些煤，就能燃烧产生能量了。"]
 			hide_dependency_lines: false
 			id: "6DC8F1F6199C1197"
 			rewards: [{
