@@ -8,7 +8,7 @@
   "block.advgenerators.eu_output_ev": "EV输出端",
   "block.advgenerators.eu_output_iv": "IV输出端",
   "block.advgenerators.tesla_output": "Tesla输出端",
-  "block.advgenerators.fe_output": "RF输出端",
+  "block.advgenerators.fe_output": "FE输出端",
   "block.advgenerators.steam": "蒸汽",
   "block.advgenerators.syngas": "合成气",
   "block.advgenerators.steam_turbine_controller": "蒸汽涡轮机控制端",
