@@ -3,11 +3,11 @@
   
   "item.biggerreactors.wrench": "反应堆扳手",
 
-  "fluid.biggerreactors.liquid_uranium": "液态铀",
+  "fluid_type.biggerreactors.liquid_uranium": "液态铀",
   "item.biggerreactors.liquid_uranium_bucket": "液态铀桶",
-  "fluid.biggerreactors.steam": "蒸汽",
+  "fluid_type.biggerreactors.steam": "蒸汽",
   "item.biggerreactors.steam_bucket": "蒸汽桶",
-  "fluid.biggerreactors.liquid_obsidian": "液态黑曜石",
+  "fluid_type.biggerreactors.liquid_obsidian": "液态黑曜石",
   "item.biggerreactors.liquid_obsidian_bucket": "液态黑曜石桶",
 
   "fluid.biggerreactors.superheated_sodium": "液态过热钠",
