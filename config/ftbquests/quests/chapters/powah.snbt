@@ -467,9 +467,9 @@
 	quests: [
 		{
 			description: [
-				"&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!"
+				"&9Powah&r是一个专注于&d能量&r的生产、储存和传输的科技模组。从基本的FE生产到生产&b250k FE/t&r的反应堆的过程中，powah始终陪伴你左右。"
 				""
-				"To get started, go and sieve some &aUraninite&r!"
+				"收集一些&a铀&r来开始！"
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
@@ -498,16 +498,16 @@
 				item: "powah:uraninite_raw"
 				type: "item"
 			}]
-			title: "&aWelcome to&r &9Powah&r!!!"
+			title: "&a欢迎来到&r&9Powah&r！！！"
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B2027DA7AA6FF34"]
 			description: [
-				"Almost every single machine you can make in the mod will require a &9Dielectric Casing&r."
+				"这个模组中几乎所有的机器都需要用&9绝缘覆层&r来合成。"
 				""
-				"You'll need to make the &bPaste&r first, as well as some &aRods&r to progress!"
+				"首先，你需要一些&b绝缘覆层&r和&a绝缘棒&r！"
 			]
 			hide_dependency_lines: false
 			icon: "powah:dielectric_casing"
@@ -539,18 +539,18 @@
 					type: "item"
 				}
 			]
-			title: "Starting with Dielectric Mats"
+			title: "从绝缘材料开始"
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
 			description: [
-				"In the beginning, you can get by with creating the &7Starter&r and &bBasic&r tier machines using Iron, but you'll eventually need to create energized mats using the &9Energizing Orb&r."
+				"一开始，你可以用铁制作&7初级&r和&b基础&r阶段的机器，最终你需要用到&9充能台&r给物品充能得到的材料来合成更高级的机器。"
 				""
-				"The &9Energizing Orb&r will energize items using nearby &aEnergizing Rods&r within a 9x9 area around it, creating better materials for you to use to progress through the &eTiers&r in Powah."
+				"&9充能台&r会利用附近9x9范围内的&a充能柱&r给物品充能。充能得到的材料可以在powah里合成更高&e阶段&r的机器。"
 				""
-				"To power the orb, you'll need to attach Energizing Rods to energy cables that are being supplied with energy. If you want the Orb to energize faster, either make more rods, upgrade to higher tier rods, or both! To see if the Rods are connected, set your &aWrench&r to link mode and you can link any Rod to the Orb."
+				"要想给充能台充能，你需要用能量线缆给充能棒提供能量。如果你想提高充能台的充能速度，可以制作更多充能棒，并提高它们的等级。检查一下充能棒是否连接，把你的&a扳手&r调到链接模式就可以把充能棒链接到充能台了。"
 				""
 				"{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}"
 			]
@@ -597,7 +597,7 @@
 							]
 						}
 					}
-					title: "Energy Cables"
+					title: "能量线缆"
 					type: "item"
 				}
 				{
@@ -639,11 +639,11 @@
 							]
 						}
 					}
-					title: "Energizing Rods"
+					title: "充能棒"
 					type: "item"
 				}
 			]
-			title: "The &9Energizing Orb&r"
+			title: "&9充能台&r"
 			x: -0.5d
 			y: 8.0d
 		}
@@ -652,7 +652,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The &7Furnator&r will burn items like coal and wood to produce FE."]
+			description: ["&7熔炉发电机&r可以燃烧煤、木头这样的燃料来生产FE。"]
 			id: "3D5F87F8E6B89C1B"
 			rewards: [
 				{
@@ -680,7 +680,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The Solar Panel generates FE when given direct access to the sun. However, you can use a &7Lens of Ender&r to ignore blocks in its way."]
+			description: ["太阳能板在阳光直射时生产FE。但你可以使用&7末影透镜&r来忽略遮挡方块。"]
 			id: "7678B5DD1339833E"
 			rewards: [
 				{
@@ -709,13 +709,13 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"The &9Reactor&r is a 3x4x3 multiblock generator that burns &aUrananite&r as fuel to produce FE."
+				"&9反应堆&r是3x4x3的多方块结构发电机，以&a晶质铀&r为燃料生产FE。"
 				""
-				"To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!"
+				"要想建造这个，你总共需要36个反应堆方块。把36个方块拿在手上，在地上放1个方快就能自动全部建完。一定要提前腾出空间！"
 				""
-				"You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &bcoolant&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &bDry Ice&r makes for a great solid coolant! (Note: 1 Water Bucket will do)"
+				"冷却反应堆可以产生更多FE，你可以用固体或液体&b冷却剂&r进行冷却。使用固体冷却剂的时候也要加一些液体冷却剂。&b干冰&r是一种很好的固体冷却剂！(注意：1通水可以当液体冷却剂）"
 				""
-				"You can also increase the FE generation by keeping the fuel buffer full, as well as adding both Coal and Redstone to the Reactor. Using Blocks of either will also work!"
+				"你也可以通过保持燃料区充满，还有加入煤和红石来加快FE的生产。使用煤炭块和红石块也可以！"
 			]
 			id: "1B0087400B0B8B49"
 			min_width: 300
@@ -743,7 +743,7 @@
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
-			title: "Reactor (Starter)"
+			title: "反应堆（初级）"
 			x: 5.5d
 			y: 11.5d
 		}
@@ -753,11 +753,11 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"&5Ender Gates&r are used to transfer power wirelessly to and from an adjacent block into the &7Ender Network&r."
+				"&5末影道门&r用于在相邻方块和&7末影网络&r之间无线传输能量。"
 				""
-				"Think of these like wireless access points to your wireless network of power."
+				"可以把它当作无线能源网络的无线访问节点。"
 				""
-				"Note: You can only add &apower storage capacity&r using an Ender Cell."
+				"注意：你只能使用末影单元增加&a能量存储容量&r。"
 			]
 			id: "3CB6DC5B09C62CFE"
 			rewards: [
@@ -786,7 +786,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The basic cables for transferring power."]
+			description: ["进行能量传输的基础线缆。"]
 			id: "7D52DD751DDADA1B"
 			rewards: [
 				{
@@ -815,9 +815,9 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"The &9Player Transmitter&r will charge a player's items wirelessly. You must first bind this to a player using a &9Binding Card&r. This is the basic card which allows the transmitter to only work in the same dimension. You can upgrade this by using a &dBinding Card (Dimensional)&r instead. "
+				"&9玩家供电仪&r可以给玩家的物品无线充电。首先，你必须使用&9绑定卡&r把它和玩家绑定。基础的绑定卡只能在同纬度传输能量。你可以把它升级成&d绑定卡（跨纬度）&r。"
 				""
-				"Note: To get a Player Aerial Pearl, use an Aerial Pearl on a Zombie or Husk."
+				"注意：要想获得玩家天线珍珠，对僵尸或尸壳使用天线珍珠。"
 			]
 			icon: "powah:player_transmitter_starter"
 			id: "677365A816994C8B"
@@ -858,7 +858,7 @@
 							]
 						}
 					}
-					title: "Binding Cards"
+					title: "绑定卡"
 					type: "item"
 				}
 			]
@@ -870,7 +870,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["The &9Energy Hopper&r will charge any chargeable item inside of the inventory of the block it is pointed to, like a chest."]
+			description: ["&9能量漏斗&r可以给指向的容器内所有能充电的物品充电，比如箱子。"]
 			id: "5BCA3F716348ECCD"
 			optional: true
 			rewards: [
@@ -899,7 +899,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["This block will drain FE from any charged item."]
+			description: ["这个方块能从已充电的物品中提取能量。"]
 			id: "33816AF0E699F19F"
 			optional: true
 			rewards: [
@@ -929,9 +929,9 @@
 				"6D88C19F47D0D469"
 			]
 			description: [
-				"The &9Power Bank&r of Powah."
+				"powah中的&9能量银行&r"
 				""
-				"These can also be used to upgrade the total power storage capacity of your wireless &7Ender Networks&r."
+				"这也可以用于升级你的无线&7末影网络&r能量存储的总容量。"
 			]
 			id: "78202A1CF5D86B94"
 			rewards: [
@@ -962,7 +962,7 @@
 				"6D88C19F47D0D469"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &5Ender Cell&r will store power for a channel in your &7Ender Network&r. To increase the power capacity of the network, right click on the Ender Cell to open up the interface, then add either a &aBattery&r or an &9Energy Cell&r to increase the overall capacity."]
+			description: ["&5魔影单元&r可以为你的&7末影网络&r存储能量。要想增加网络的存储容量，对末影单元右键来打开界面，然后加入&a电池&r和&9能量单元&r来增加总容量。"]
 			hide_dependency_lines: true
 			id: "700F3FF7C23D0C0F"
 			rewards: [
@@ -1009,7 +1009,7 @@
 				item: "powah:steel_energized"
 				type: "item"
 			}]
-			title: "Tier: &aEnergized&r"
+			title: "等级：&a硬化&r"
 			x: -0.5d
 			y: 13.5d
 		}
@@ -1036,7 +1036,7 @@
 				item: "powah:crystal_blazing"
 				type: "item"
 			}]
-			title: "Tier: &cBlazing&r"
+			title: "等级：&c烈焰&r"
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1063,7 +1063,7 @@
 				item: "powah:crystal_niotic"
 				type: "item"
 			}]
-			title: "Tier: &9Niotic&r"
+			title: "等级：&9钻石&r"
 			x: -0.5d
 			y: 15.5d
 		}
@@ -1090,7 +1090,7 @@
 				item: "powah:crystal_spirited"
 				type: "item"
 			}]
-			title: "Tier: &2Spirited&r"
+			title: "等级：&2富生&r"
 			x: -0.5d
 			y: 16.5d
 		}
@@ -1117,7 +1117,7 @@
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			title: "Tier: &4Nitro&r"
+			title: "等级：&4下界&r"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -1126,7 +1126,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["These can be used to charge items in your inventory, or can be used to increase the overall power capacity of an &7Ender Network&r channel."]
+			description: ["它可以用于在物品栏里给物品充电，或者增加&7末影网络&r频道的总容量。"]
 			id: "61A8FAEC4FF18449"
 			rewards: [
 				{
@@ -2987,7 +2987,7 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: ["Used to energize items using the Energizing Orb."]
+			description: ["用来给充能台上的物品充能。"]
 			hide_dependency_lines: true
 			id: "1C273D9E046FD18A"
 			rewards: [
@@ -3174,5 +3174,5 @@
 			y: 17.5d
 		}
 	]
-	title: "Powah"
+	title: "Powah模组"
 }
