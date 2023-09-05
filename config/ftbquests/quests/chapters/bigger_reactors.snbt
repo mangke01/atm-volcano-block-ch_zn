@@ -11,7 +11,7 @@
 			corner: false
 			dev: false
 			height: 3.0d
-			hover: ["Click here to open the Wiki!"]
+			hover: ["点击这里打开Wiki！"]
 			image: "atm:textures/questpics/biggerreactors/biggerreactorslogo.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -24,7 +24,7 @@
 			dependency: "4AD8363D7359A072"
 			dev: false
 			height: 0.25d
-			hover: ["Full List of Moderators"]
+			hover: ["完整的慢化剂列表"]
 			image: "allthemodium:textures/block/unobtainium_block.png"
 			rotation: 45.0d
 			width: 0.25d
@@ -37,7 +37,7 @@
 			dependency: "4415C9F8DA2D7E68"
 			dev: false
 			height: 0.25d
-			hover: ["List of Turbine Coils and Properties"]
+			hover: ["涡轮机线圈材料及特性列表"]
 			image: "biggerreactors:textures/block/turbine/fluid_port/inlet.png"
 			rotation: 45.0d
 			width: 0.25d
@@ -50,9 +50,9 @@
 	quests: [
 		{
 			description: [
-				"Based off the original mod &eBig Reactors&r, this mod aims to provide fun and engaging power systems by making customizable multi-block reactors."
+				"基于原先的模组&e大型反应堆&r，这个模组提供了一种有趣又迷人的能源系统————即制作可自定义的多方快结构反应堆。"
 				""
-				"The main element is of course, Uranium (same thing as Yellorite). You'll need this and a lot of coal and iron to get building. "
+				"制作材料的主要元素当然是铀（和黄铀一样）。你需要这个和大量的煤、铁来建造。"
 			]
 			id: "7C4E4793DA887DE4"
 			rewards: [
@@ -76,16 +76,16 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Welcome to &9Bigger Reactors&r!"
+			title: "欢迎来到&9大型反应堆&r！"
 			x: -5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7C4E4793DA887DE4"]
 			description: [
-				"Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
+				"在我们开始建造反应堆之前，我们需要熔炼一些煤炭（或木炭）来制作&9石墨锭&r。"
 				""
-				"Graphite, coupled with Iron, is one of the main materials when making a Reactor."
+				"石墨，和铁组合，是制作反应堆的一个主材料。"
 			]
 			hide: true
 			id: "4FA6BEA4E646B742"
@@ -102,29 +102,29 @@
 					type: "random"
 				}
 			]
-			subtitle: "Hardened Carbon"
+			subtitle: "硬化煤炭"
 			tasks: [{
 				count: 16L
 				id: "4B83A0D1C2C3C226"
 				item: "biggerreactors:graphite_ingot"
 				type: "item"
 			}]
-			title: "Graphite for Casings"
+			title: "石墨外壳"
 			x: -5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["75AD0CEBC1335915"]
 			description: [
-				"We're going to build the smallest passive reactor possible, the &93x3x3&r. The requirements for the quest are the exact amounts for what you need to build one."
+				"我们要建造一个最小的沉寂反应堆，&93x3x3的大小&r。任务目标里的方块数量就是你搭建这个区域所需要的材料数量。"
 				""
-				"To build this, you start by building a 3x3x3 frame made out of Casings. On the bottom wall, you can use glass or a casing to fill it in. You'll want each wall to have a &9reactor component&r, like a power tap or access port."
+				"要建造这个，你要先用涡轮机外壳搭建一个3x3x3的框架（正方体的8个顶点和12条边）。底面的洞里可以用反应堆玻璃或外壳来填充。每个面都会有一个&9反应堆组件&r，比如能量接口或访问接口。"
 				""
-				"Every reactor you build will require exactly 1 &6Reactor Terminal&r, which is usually put in the middle of the front wall. Next, we'll place 1 &aControl Rod&r in the middle of the top, and 1 &eReactor Fuel Rod&r underneath it, meaning in the middle of your reactor."
+				"建造每一个反应堆都需要不多不少的一个&6反应堆终端&r，通常把它放在反应堆这个正方体朝前一面的中心。接下来，我们会在反应堆顶面的中心放置一个&a反应堆控制杆&r，和一个在它下面，也就是整个反应堆的中心放置一个&e反应堆燃料棒&r。"
 				""
-				"You will need a way to input and output waste, which is done by using &9Reactor Access Ports&r. For this build, place one on the left side and one on the right."
+				"你需要一个途径来输入和输出污染物，这可以通过&9反应堆访问端口&r来实现。在反应堆的左面和右面的中心各放置一个。"
 				""
-				"To extract power, we'll place the &cPower Tap&r on the middle of the back wall. Once placed, the reactor should complete!"
+				"想要传输能量，我们可以在反应堆后面的中心放置&c反应堆能量接口&r。放置之后，反应堆就建造好了！"
 				""
 				"{image:atm:textures/questpics/biggerreactors/3x3_reactor.png width:150 height:150 align:1}"
 			]
@@ -166,7 +166,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Learning the Basics"
+			subtitle: "基础学习"
 			tasks: [
 				{
 					count: 21L
@@ -201,16 +201,16 @@
 					type: "item"
 				}
 			]
-			title: "&dOur First Passive Reactor"
+			title: "&d第一座沉寂的反应堆"
 			x: -0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4FA6BEA4E646B742"]
 			description: [
-				"To build a reactor, you'll need to start by making &6Reactor Casings&r."
+				"要想建造一个反应堆，你需要先制作&6反应堆外壳&r。"
 				""
-				"These make up the frame and walls of your reactor, although the walls can be replaced by &9Reactor Glass&r if you'd like to see inside of your reactor."
+				"它们可以组成反应堆的框架和外壁，不过如果你想看到反应堆内部，外壁可以换成&9反应堆玻璃&r。"
 			]
 			id: "4B9E9497E44D0096"
 			rewards: [
@@ -242,18 +242,18 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Building Components"
+			title: "反应堆建筑构件"
 			x: -5.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"To extract power or items from your reactor, or even input fuel, you'll need these &crequired&r items."
+				"要想从反应堆里输出物品或能量，或者输入燃料，你还需要这些&c必须品&r。"
 				""
-				"The &cPower Tap&r provides a way for you to \"tap\" into the power that a &9passive&r reactor makes. You can attach pipes and cables to extract the power from it."
+				"&c能量接口&r可以输出反应堆产生的能量。你可以在上面连接管道和线缆来输出能量。"
 				""
-				"The &aAccess Ports&r are required for every reactor, and allows you to both input fuel (Uranium) from the reactor, or extract waste (Cyanite). While it only requires one, it's usually a good idea to have 2 per reactor. If the inventory can push &land&r pull (i.e. hopper), Cyanite will be pushed into the inventory as an input."
+				"&a访问端口&r是每一个反应堆都要有的，也让你能够输入燃料（铀）和输出废料（蓝晶）。虽然只需要一个，但是每个反应堆放置两个更好。如果一个容器可以输入&l和&r输出（比如漏斗），蓝晶会被输入到容器里。"
 			]
 			id: "2A20000FAEC2E16A"
 			rewards: [
@@ -283,18 +283,18 @@
 					type: "item"
 				}
 			]
-			title: "Interacting with the Reactor"
+			title: "与反应堆交互"
 			x: -3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"The &dReactor Terminal&r is the heart of the reactor. When a reactor is formed, you can right-click the terminal to open up the reactor interface."
+				"&d反应堆终端&r是反应堆的核心。反应堆建成之后，你可以右键终端打开反应堆界面。"
 				""
-				"Depending on if it is a &9Passive&r or an &eActive&r reactor, the interface will change. Passive reactors are used to produce power directly by burning fuel. Active Reactors burn fuel to create heat to power Turbines for power generation."
+				"取决于反应堆是&9沉寂的&r还是&e活跃的&r，它的界面会变化。沉寂反应堆通过直接利用燃料来生产能量。活跃反应堆通过烧燃料产生热量驱动涡轮机来生产能量。"
 				""
-				"In the interface of a passive reactor, you can see and toggle the status and waste ejection. You'll also see the temps, how much RF/t the reactor is producing, and how much fuel the reactor is burning per tick."
+				"在沉寂反应堆的界面里，你可以查看并切换状态和废料排放。你还能看到温度、产能功率和燃料消耗速率。"
 				""
 				"{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:200 height:175 align:1}"
 			]
@@ -321,7 +321,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Heart of the Reactor"
+			subtitle: "反应堆核心"
 			tasks: [{
 				id: "62A0FE4CFAB9621B"
 				item: "biggerreactors:reactor_terminal"
@@ -333,13 +333,13 @@
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor."
+				"每个反应堆都需要&9反应堆控制棒&r和&9燃料棒&r。它们控制着能量如何插入反应堆。"
 				""
-				"The Control Rods are placed on the top of the reactor. You can also have more than one per reactor, but you must have at least 1. Typically, the more you have, the more fuel the reactor can use and burn. That can mean more overall power, but at the cost of higher burn rates depending on the setup of your reactor."
+				"控制棒放在反应堆的顶部。每个反应堆可以有多个，但至少要有一个。一般来说，控制棒越多，可以使用并燃烧的燃料越多。这意味着更大的总功率，但代价是更高的燃料消耗速率，具体数值取决于反应堆的设置。"
 				""
-				"For every Control Rod, you'll need enough Fuel Rods to extend to the base of the reactor. For example, if your reactor is 5 blocks tall, you'll need 3 Fuel Rods extending from each Control Rod."
+				"对每一个控制棒，与之连接的燃料棒需要延伸至反应堆的底面。例如，如果你的反应堆有5个格高，每个控制棒就应该伸出3个燃料棒。"
 				""
-				"If you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."
+				"如果你对控制棒右键，你就可以控制燃料棒的插入程度从而决定参与反应的燃料多少。插入越深反应速度越慢。"
 			]
 			id: "7B4AAC741F0A6073"
 			min_width: 300
@@ -375,18 +375,18 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Control Rods"
+			title: "反应堆控制棒"
 			x: -3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4B9E9497E44D0096"]
 			description: [
-				"There are several optional blocks you can make to control your reactor."
+				"有很多种方块可以用来控制反应堆。"
 				""
-				"The &cRedstone Port&r allows you to control your reactor with redstone. This means levers, buttons, etc."
+				"&c红石接口&r让你可以用红石控制反应堆。也就是可以用拉杆、按钮之类的控制。"
 				""
-				"The &9Computer Port&r allows for control of the reactor using Lua scripts from mods like &eComputerCraft&r."
+				"&9电脑端口&r允许用像&eComputerCraft&r这样的模组，使用Lua脚本来控制反应堆。"
 			]
 			id: "0EF58EA4D6568E0C"
 			optional: true
@@ -417,16 +417,16 @@
 					type: "item"
 				}
 			]
-			title: "Reactor Control Components"
+			title: "反应堆控制组件"
 			x: -5.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"To insert fuel into the reactor, you'll need to pick one of the sides that has a &9Reactor Access Port&r and pump in &eUranium&r from an inventory."
+				"要想把燃料输入反应堆，你需要在某一面放置&9反应堆访问端口&r并从一个容器向反应堆内输入&e铀&r。"
 				""
-				"The easiest way to do this is to use something like a &aStorage Drawer&r or even just a &aChest&r with an &9Item Pipe&r connected at the top, like the image shown below."
+				"最简单的方法是使用类似&a储物抽屉&r或者就用&a箱子&r这种容器，把&9物品管道&r连接在容器顶部，就像这张图片展示的一样。"
 				""
 				"{image:atm:textures/questpics/biggerreactors/storage_example.png width:150 height:150 align:1}"
 			]
@@ -451,16 +451,16 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Fueling our Passive Reactor"
+			title: "给我们的沉寂反应堆提供燃料"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Just as you'll need to pump in Fuel, burning Uranium creates a byproduct of &9Cyanite&r as a waste."
+				"就像你需要输入燃料一样，铀参与反应产生的副产物&9蓝晶&r要作为废料输出。"
 				""
-				"Note: &eCyanite Dust&r is craftable. "
+				"注意：&e蓝晶粉&r是有用的。"
 			]
 			hide: true
 			id: "4745152F6FF242B3"
@@ -478,23 +478,23 @@
 					xp: 50
 				}
 			]
-			subtitle: "Waste Not Want Not or something...."
+			subtitle: "不要浪费某些东西……"
 			tasks: [{
 				count: 4L
 				id: "77F79D09A76CFF15"
 				item: "biggerreactors:cyanite_ingot"
 				type: "item"
 			}]
-			title: "Dealing with Waste"
+			title: "处理废料"
 			x: -0.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4745152F6FF242B3"]
 			description: [
-				"That waste is actually rather useful! Making a &9Cyanite Reprocessor&r allows you to convert &e2 Cyanite Ingots&r into &dBlutonium&r. The Reprocessor will also need water to complete the conversion. "
+				"废料也是有用的！制作一个&9蓝晶再处理器&r让你可以把&e2个蓝晶锭&r转化成&d蓝钚锭&r。再处理器的转化也需要水。"
 				""
-				"Blutonium is used in several crafting recipes, but can also be used in a reactor for fuel, just like Uranium."
+				"蓝钚锭能合成很多东西，也能用于反应堆燃料，像铀一样。"
 			]
 			hide: true
 			id: "354086C858E10154"
@@ -523,16 +523,16 @@
 					type: "item"
 				}
 			]
-			title: "Reprocessing our Waste"
+			title: "废料再处理"
 			x: -0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["354086C858E10154"]
 			description: [
-				"We now have a way to create &5Ludicrite Blocks&r. "
+				"现在我们能合成&5镥块&r了。"
 				""
-				"These are rather expensive to make, but they serve as great &9Moderators&r for reactors, as well as breaking down into Ingots to craft a component of the &cHeat Exchanger&r."
+				"它的制作成本很高，但它是很好的反应堆&9慢化剂&r，也可以拆解成锭用来合成&c热交换器&r。"
 			]
 			id: "2DF6657DB4950B79"
 			rewards: [
@@ -555,22 +555,22 @@
 					type: "random"
 				}
 			]
-			subtitle: "Don't judge these bad jokes."
+			subtitle: "不要把它当成卤肉块。"
 			tasks: [{
 				id: "6BFA36E89207A86C"
 				item: "biggerreactors:ludicrite_block"
 				type: "item"
 			}]
-			title: "That's just Ludicrite!"
+			title: "那是镥块"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["354086C858E10154"]
 			description: [
-				"Now that we have Blutonium, we can create the heart of the Turbine, the &9Turbine Terminal&r."
+				"现在我们有了蓝钚锭，就能制作涡轮机的核心，&9涡轮机终端&r。"
 				""
-				"Turbines are multi-block structures, just like Reactors! They input heated liquids like &7Steam&r made by &dActive&r Reactors to create TONS of power! We'll need a few other pieces to be able to build our first one."
+				"涡轮机是多方快结构，就像反应堆那样！向其输入高温流体，比如由&d活跃的&r反应堆产生的&7蒸汽&r，来生产大量的能源！我们还需要准备其他材料才能建造一个。"
 			]
 			id: "4415C9F8DA2D7E68"
 			rewards: [
@@ -607,25 +607,25 @@
 					type: "item"
 				}
 			]
-			title: "Making Turbines"
+			title: "制造涡轮机"
 			x: -0.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Reactor &9Moderators&r are materials placed inside of a reactor to change how it performs, based on the properties of the moderator. These are placed &linside&r of the reactor during construction."
+				"反应堆&9慢化剂&r是一种置于反应堆内部能根据其特性改善反应堆性能的材料。 These are placed &linside&r of the reactor during construction."
 				""
-				"There are 4 properties of a Moderator:"
+				"慢化剂有4个属性："
 				""
-				"- Absorption: The speed at which radiation is absorbed and converted to case heat"
-				"- Efficiency: How efficiently absorbed radiation is converted into heat."
-				"- Moderation: The effectiveness at which radiation is moderated."
-				"- Conductivity: How well heat is transferred from the fuel rods to the reactor casing."
+				"- 吸收率：吸收辐射并转化为外壳热量的速率。"
+				"- 转化率：辐射转化为热量的效率。"
+				"- 慢化率：辐射被慢化的程度。"
+				"- 导热率：传导至外壳的热量与燃料棒处热量的比值。"
 				""
-				"Typically, the rarer the material is, the better of a Moderator it is. In the ATM series, &dUnobtainium Blocks&r are considered one of the best moderators."
+				"一般来说，材料越稀有，其充当的慢化剂就越好。在ATM系列中，&d难得素块&r被认为是最好的慢化剂之一。"
 				""
-				"Adding these inside of your reactor can increase the overall performance and output of your reactor. Try using diamond blocks in the early game!"
+				"把这些慢化剂加入反应堆内部可以增加反应堆的总体性能和产出。在游戏早期试着用钻石块！"
 			]
 			id: "73362EDC984B8A0F"
 			min_width: 300
@@ -642,23 +642,23 @@
 					type: "loot"
 				}
 			]
-			subtitle: "They are Moderators, not Coolants."
+			subtitle: "它们是慢化剂，不是冷却剂。"
 			tasks: [{
 				count: 3L
 				id: "3B3C22507E3FBACC"
 				item: "minecraft:diamond_block"
 				type: "item"
 			}]
-			title: "Reactor Moderators"
+			title: "反应堆慢化剂"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"When a reactor is Passive, it just burns fuel directly into power. When you add a &dReactor Coolant Port&r to one of the reactor's walls, it converts the reactor to an Active reactor, which will instead burn fuel to heat fluids, like water into &9Steam&r. You cannot have a &cPower Tap&r and a Coolant Port on the same reactor. "
+				"当反应堆沉寂的时候，它只会直接利用参加反应的燃料释放的能量。当你在反应堆某一面增加了&d反应堆冷却端口&r，反应堆就会转变为活跃反应堆，由燃料参加反应转变为加热流体，就像把水加热成成&9蒸汽&r。同一个反应堆不能同时有&c能量接口&r和冷却端口。"
 				""
-				"Once placed, it will also convert the reactor's interface, showing more information about your reactor. You will now have a tank for the coolant, a tank for the exhaust, and can see the &9Exhaust Generation Rate&r. For example: If you're pumping in water, this will be the steam output."
+				"放置之后，反应堆的界面会发生变化，显示更多信息。会有一个冷却剂的水槽，和一个辐射蒸汽槽, 还能看到&9辐射蒸汽产生速率&r。举个例子：如果你输入水，将会输出蒸汽。"
 			]
 			id: "476755275B948A5F"
 			min_width: 300
@@ -675,29 +675,29 @@
 					type: "random"
 				}
 			]
-			subtitle: "To Make Steam!!"
+			subtitle: "产生蒸汽！！"
 			tasks: [{
 				count: 2L
 				id: "3A1B16362F885F1F"
 				item: "biggerreactors:reactor_coolant_port"
 				type: "item"
 			}]
-			title: "Converting our \"Passive\" Reactor"
+			title: "转化“沉寂”反应堆"
 			x: 1.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
 			description: [
-				"Reactors are multi-block structures, meaning you can create your own custom size!"
+				"反应堆是多方快结构，这意味着你可以自定义它的尺寸大小！"
 				""
-				"The &lBiggest&r Reactor that you can make is 128x128x192. There are a lot of variables that contribute to the overall output of a reactor, so make sure to experiment!"
+				"&l最大的&r反应堆的大小是128x128x192。有很多因素能影响反应堆的总体输出，所以多做尝试。"
 				""
-				"Some overall tips:"
+				"一些提示："
 				""
-				"The taller the reactor, the more fuel it can hold and burn because there are more fuel rods, meaning more overall power. This also means a higher &9burn rate&r."
+				"反应堆越高，就能装越多燃料，有越多燃料参与反应。因为有更多的燃料棒，也就意味着更大总功率。这也意味着更高的&9燃料消耗&r。"
 				""
-				"The wider the reactor, the more efficient it is, as long as you don't add more fuel rods to the design. This means less consumption overall."
+				"反应堆所占面积越大，效率就越高。（只要你没在设计里增加燃料棒）这意味着总消耗减小。"
 			]
 			id: "3F9D553C9FA64F2A"
 			min_width: 300
@@ -720,20 +720,20 @@
 				item: "biggerreactors:reactor_casing"
 				type: "item"
 			}]
-			title: "Expanding Our Reactors"
+			title: "扩大反应堆"
 			x: 1.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"To interact with our Turbine, we'll need several &6Ports&r."
+				"要想和涡轮机交互，我们需要几个&6端口&r。"
 				""
-				"The &9Fluid Port&r is used to insert heated liquid like steam, or extract exhaust, like water. Steam does get condensed back into water, so it's good to have 2 of these for your Turbine: One to input Steam, and one to output Water back into the reactor."
+				"&9流体端口&r用于输入加热过的流体比如蒸汽，或输出废料比如水。蒸汽会冷凝成水，所以给涡轮机加两个液体端口是很好的选择：一个用来输入蒸汽，另一个用来输出水并循环输入至反应堆。"
 				""
-				"The &cPower Tap&r extracts power, and is required for us to get power from the turbine."
+				"&c能量接口&r能提取能量，我们需要用它从涡轮机里获取能量。"
 				""
-				"You can also make a &eComputer Port&r, but it is completely optional. It allows you to interact with the Turbine with ComputerCraft using scripts."
+				"你也可以做一个&e电脑端口&r。它让你能够用ComputerCraft模组的脚本操控涡轮机。"
 			]
 			id: "186731580B14F9D2"
 			rewards: [
@@ -763,22 +763,22 @@
 					type: "item"
 				}
 			]
-			title: "Turbine Ports"
+			title: "涡轮端口"
 			x: -3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"To get a Turbine spinning, we'll need these &crequired&r components:"
+				"要想让涡轮旋转，我们需要以下&c必须&r的组成构件："
 				""
-				"- &9Rotor Bearings&r are placed at each end of the shaft of the turbine. While the shaft technically does not have to be centered in the turbine, it's generally the optimal place for it. You will need exactly 2 per Turbine, one at the top and one at the base."
+				"- &9转子轴承&r被放在每个涡轮机转子轴的末端。虽然转子轴不是必须要放在涡轮机中央，但那一般是最佳位置。每个涡轮机需要放两个转子轴承，一个在顶部另一个在底部。"
 				""
-				"- &eRotor Shafts&r extend from one Rotor Bearing to the other, creating the shaft for the Turbine. The shaft can be vertical or horizontal."
+				"- &e转子轴&r从一个转子轴承连接到另一个，是涡轮机的轴。这个轴水平或者竖直放置都可以。"
 				""
-				"- &9Rotor Blades&r make the rotor spin. These are placed onto the Rotor Shafts and can be multiple blocks in length."
+				"- &9转子叶片&r可以使转子旋转。它们放置在转子轴上可以是好几个方块的长度。"
 				""
-				"Here is an example of a Horizontal Shaft setup for a Turbine, with the Turbine Coil of Gold on the right side."
+				"以下是涡轮机水平轴的设置示例，右面是金块做成的涡轮机线圈。"
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_horizontal_shaft.png width:200 height:125 align:1}"
 			]
@@ -825,16 +825,16 @@
 					type: "item"
 				}
 			]
-			title: "Creating The Turbine Shaft"
+			title: "建造涡轮机轴"
 			x: -4.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"&dTurbine Coils&r are blocks placed around a shaft at one end of a Turbine. These are required to generate power from the turbine."
+				"&d涡轮机线圈&r是围绕在涡轮机轴末端放置的方块。它们是涡轮机发电必须的。（线圈所在的转轴截面内不能有叶片）"
 				""
-				"This quest requires at least one of the acceptable blocks you can use as coils."
+				"完成这个任务只需要任意一种可以充当线圈的方块。"
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_coil.png width:150 height:100 align:1}"
 			]
@@ -919,10 +919,10 @@
 						]
 					}
 				}
-				title: "Turbine Coils"
+				title: "涡轮机线圈"
 				type: "item"
 			}]
-			title: "Turbine Coils"
+			title: "涡轮机线圈"
 			x: -3.0d
 			y: 11.0d
 		}
@@ -934,11 +934,11 @@
 				"775D176081DD75F5"
 			]
 			description: [
-				"Instead of building the smallest Turbine at this point, it's better to build a Turbine based off of the design of your &9Active Reactor&r."
+				"相较于在此时建造最小的涡轮机，根据你的&9活跃反应堆&r来设计并制造涡轮机是更好的选择。"
 				""
-				"For starters, you want to build a Turbine that can handle the &9Exhaust Flow Rate&r of your reactor. To get the most power out of it, it'll need to maintain 1800RPM as well. This takes a lot of experimenting with different coils, # of blades, and overall size of the Turbine!"
+				"首先，你要建造一个能够控制你的反应堆&9辐射蒸汽产出速率&r的涡轮机。为了获得最大的能量输出，它还需要保持在1800转。这需要对不同线圈、叶片和涡轮机总尺寸进行大量实验！"
 				""
-				"Note: To complete this quest, you'll need to create a &dTask Screen&r of any size. Once placed, you can right-click the screen and select this quest as the requirement, then output power into the task screen block to fill it up and complete the quest."
+				"注意：为了完成这个任务，你需要制作一个任意尺寸的&d任务显示器&r。放置之后，你可以右键显示器并选择这个任务，然后把能源注入任务显示器来完成任务。"
 				""
 				"{image:atm:textures/questpics/biggerreactors/reactor_turbine_example.png width:300 height:150 align:1}"
 			]
@@ -993,7 +993,7 @@
 							]
 						}
 					}
-					title: "Quest Task Screens"
+					title: "任务显示器"
 					type: "item"
 				}
 				{
@@ -1003,16 +1003,16 @@
 					value: 10000000L
 				}
 			]
-			title: "&dOur First Turbine"
+			title: "&d第一台涡轮机"
 			x: -5.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"The &9Turbine&r has a minimum shape of 5x4x5, but can go up to 32x192x32 in size."
+				"&9涡轮机&r最小尺寸为5x4x5，最大为32x192x32。"
 				""
-				"Just like the Reactor, the frame must be built out of &dCasings&r, but the walls can be &9Turbine Glass&r instead."
+				"和反应堆一样，框架必须用&d涡轮机外壳&r搭建，但是外壁可以是&9涡轮机玻璃&r（除了底面）。"
 			]
 			id: "2D592669F4D41793"
 			rewards: [
@@ -1036,18 +1036,18 @@
 				item: "biggerreactors:turbine_glass"
 				type: "item"
 			}]
-			title: "Turbine Construction"
+			title: "涡轮机结构"
 			x: -2.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
 			description: [
-				"Right-clicking on a Turbine Terminal when it is fully built will show you the Turbine Interface."
+				"建好后右键涡轮机终端会显示涡轮机界面。"
 				""
-				"Here, you can see all of the stats for the Turbine. Hovering over each will tell you more info about each one."
+				"你能在这里看到涡轮机的各项数据。鼠标悬停在一些图标上可以展示更多信息。"
 				""
-				"On the right side, you'll have 2 arrows to control the &9Input Flow Rate&r. This controls how much heated fluid is pumped into the Turbine. To know how much you should set this to, check your reactor's &dExhaust Flow Rate&r as a starting point. "
+				"在右边有两个箭头可以控制&9输入流速&r。这决定着有多少加热过的流体进入涡轮机。查看反应堆的&d输出流速&r来确定你应该在涡轮机这里设定什么数值。"
 				""
 				"{image:atm:textures/questpics/biggerreactors/turbine_ui.png width:150 height:140 align:1}"
 			]
@@ -1067,5 +1067,5 @@
 			y: 10.0d
 		}
 	]
-	title: "Bigger Reactors"
+	title: "大型反应堆"
 }
