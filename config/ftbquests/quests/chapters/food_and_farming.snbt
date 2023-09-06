@@ -420,10 +420,10 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "得到这样的机器之后，就可以大规模种田了。"
+			subtitle: "有了这个东西之后，就可以大规模种田了。"
 			tasks: [{
 				id: "78772A2785AE9DD2"
-				title: "种植机"
+				title: "锄头"
 				type: "checkmark"
 			}]
 			x: -1.5749999999999997d
