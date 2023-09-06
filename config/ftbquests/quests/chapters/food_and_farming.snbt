@@ -108,9 +108,9 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the Food and Farming chapter!"
+				"欢迎来到食物与农牧章节！"
 				""
-				"Here, you'll find different ways for you to grow and make food!"
+				"在这里，你能学到很多种务农和制作食物的方法！"
 			]
 			icon: "minecraft:emerald"
 			id: "1827DEEA2DF1B144"
@@ -128,10 +128,10 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Getting Started"
+			subtitle: "开始"
 			tasks: [{
 				id: "07603A90CCCB3627"
-				title: "Food and Farming"
+				title: "食物与农牧"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["43021923E220CF68"]
-			description: ["Let's gather some seeds."]
+			description: ["让我们收集一些种子"]
 			id: "72717D1135486D7F"
 			rewards: [
 				{
@@ -154,20 +154,20 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Block Hand 1, Block Grass 0"
+			subtitle: "草生万物"
 			tasks: [{
 				count: 8L
 				id: "73B6ED422F9292D1"
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			title: "Punch the Grass."
+			title: "除草。"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18EADBAFC932F864"]
-			description: ["Let's gather some pieces of wool!"]
+			description: ["让我们收集一些羊毛！"]
 			icon: "minecraft:white_wool"
 			id: "3EA883C0BB7BD38F"
 			rewards: [
@@ -182,7 +182,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Whose fleece was....rainbow?"
+			subtitle: "谁的毛是……彩色的?"
 			tasks: [{
 				count: 3L
 				icon: "minecraft:white_wool"
@@ -194,10 +194,10 @@
 						value: "minecraft:wool"
 					}
 				}
-				title: "Any #minecraft:wool"
+				title: "任意的羊毛"
 				type: "item"
 			}]
-			title: "Mary had a Little Lamb"
+			title: "玛丽有只小羊羔"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -220,13 +220,13 @@
 				}
 				type: "item"
 			}]
-			title: "It's Clippin' Time"
+			title: "剪切时代"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
-			description: ["I don't wanna know how you got these."]
+			description: ["我不想知道你是怎么得到这个的。"]
 			id: "635620A03E3505BF"
 			rewards: [
 				{
@@ -246,16 +246,16 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			title: "But....Cows can't be sheared..."
+			title: "但是……牛皮不能像羊毛那样被修剪"
 			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3EA883C0BB7BD38F"]
 			description: [
-				"Markets provide you with a villager than can sell you anything, if you have the right amount of emeralds."
+				"贸易战带来了一个几乎能卖给你所有种子和树苗的村民，只要你能给它足够的绿宝石。"
 				""
-				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
+				"提示：每个物品通常只卖1个绿宝石，但是它们什么东西都有。"
 			]
 			id: "1F114EB0AAB86DB4"
 			rewards: [
@@ -278,21 +278,21 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "The villager has more than one way to spawn"
+			subtitle: "村民不止有一种生成方法"
 			tasks: [{
 				id: "1AFEBED0226CEBC1"
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			title: "Purchasing Farm Supplies"
+			title: "购买农场用品"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"The classic Lead. Use this to get animals into your farm area."
+				"经典的拴绳。用这个把动物带进你的农场。"
 				""
-				"This isn't the same thing found in paint."
+				"这和画里描述的不同。"
 			]
 			id: "2E9C035EEE7E5C34"
 			rewards: [{
@@ -301,22 +301,22 @@
 				xp: 10
 			}]
 			shape: "diamond"
-			subtitle: "Get along little doggy."
+			subtitle: "像牵着小狗一样"
 			tasks: [{
 				id: "63282E8604721F13"
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			title: "We're doing this the old fashioned way."
+			title: "我们用传统的方法。"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["635620A03E3505BF"]
 			description: [
-				"Find a cow and Right Click it with a bucket."
+				"找一只牛并用桶右键。"
 				""
-				"Seriously, why no bulls?"
+				"说真的，为什么没有公牛？"
 			]
 			id: "73B8A70240E6070E"
 			rewards: [
@@ -332,22 +332,22 @@
 					xp: 10
 				}
 			]
-			subtitle: "Why aren't there any bulls in the game?"
+			subtitle: "为什么游戏里没有公牛？"
 			tasks: [{
 				id: "19A9C679111A90BC"
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			title: "Find a cow. Milk the cow. Profit."
+			title: "找一只牛，给它挤奶。"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
 			description: [
-				"Chickens will lay these naturally. I guess it's not really considered naturally..."
+				"鸡会自然的下蛋。我猜它并不是很自然……"
 				""
-				"I guess the chickens are just getting... &oEggs-ercise!!!&r."
+				"我猜鸡在做一些……&o篮球练习!!!&r。"
 				""
 				":)"
 			]
@@ -357,14 +357,14 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "or am I?"
+			subtitle: "我到底会不会呢？"
 			tasks: [{
 				count: 3L
 				id: "46974912B1E8E78B"
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			title: "I'm not gonna make an Egg pun."
+			title: "我不会用鸡蛋玩梗。"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -376,7 +376,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "How else do you think Fried Chicken is made?"
+			subtitle: "你觉得炸鸡是怎么做的？"
 			tasks: [
 				{
 					count: 10L
@@ -391,7 +391,7 @@
 					type: "item"
 				}
 			]
-			title: "The Chickens Must Go"
+			title: "鸡必须要走"
 			x: 6.0d
 			y: 1.0d
 		}
@@ -420,10 +420,10 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Just wait until you get machines for this."
+			subtitle: "得到这样的机器之后，就可以大规模种田了。"
 			tasks: [{
 				id: "78772A2785AE9DD2"
-				title: "The Planter"
+				title: "种植机"
 				type: "checkmark"
 			}]
 			x: -1.5749999999999997d
@@ -445,14 +445,14 @@
 					xp: 10
 				}
 			]
-			subtitle: "Speedrunners Love This Stuff"
+			subtitle: "速通玩家们爱这个东西"
 			tasks: [{
 				count: 3L
 				id: "6890EB2819D88073"
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			title: "Wheat."
+			title: "小麦。"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -464,23 +464,23 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Quick and Simple"
+			subtitle: "又快又简单"
 			tasks: [{
 				count: 3L
 				id: "03C7F9CB0DDB2D9B"
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			title: "The Bread of Life"
+			title: "生命的面包"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
 			description: [
-				"You'll find hemp seeds pretty fast."
+				"你很快就能发现工业大麻种子。"
 				""
-				"If you plant these, you can use the fiber to make string!"
+				"如果你种植这个，你就可以用它的纤维制作线！"
 			]
 			id: "5A51E26D66D1273B"
 			rewards: [
@@ -496,7 +496,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Who needs spiders anyway?"
+			subtitle: "谁还需要蜘蛛？"
 			tasks: [
 				{
 					id: "76B0E810B050B149"
@@ -510,13 +510,13 @@
 					type: "item"
 				}
 			]
-			title: "Hemp Seeds"
+			title: "工业大麻种子"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
-			description: ["Find some sugar cane!"]
+			description: ["发现一些甘蔗！"]
 			id: "361DFDB1E1352D6B"
 			rewards: [
 				{
@@ -530,19 +530,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "This grows to the sky now."
+			subtitle: "现在它能长到天上"
 			tasks: [{
 				count: 10L
 				id: "6118A776B40507B7"
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			title: "Sugar Sugar."
+			title: "甘蔗制糖。"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
-			description: ["Go ahead. Put a book in a furnace."]
+			description: ["去把书放到熔炉里。"]
 			id: "45F83C2750F70F9B"
 			rewards: [{
 				id: "54B713BDF265A213"
@@ -551,22 +551,22 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Smelt a book. Totally won't catch on fire."
+			subtitle: "熔炼一本书。完全不会烧起来"
 			tasks: [{
 				id: "61DBF366AFC8A579"
 				item: "cookingforblockheads:recipe_book"
 				type: "item"
 			}]
-			title: "Making a Kitchen, with a book."
+			title: "按照一本书来打造厨房。"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["45F83C2750F70F9B"]
 			description: [
-				"Craft the next version of the book. I promise you, it's worth it."
+				"合成下一个版本的书。我保证，这是值得的。"
 				""
-				"I'll even give you a Diamond back."
+				"我甚至会给你一个钻石。"
 			]
 			id: "58D5BD3106BFD94A"
 			rewards: [
@@ -587,24 +587,24 @@
 					type: "random"
 				}
 			]
-			subtitle: "This is totally worth it btw"
+			subtitle: "这完全是值得的"
 			tasks: [{
 				id: "20FD5552BE10D679"
 				item: "cookingforblockheads:crafting_book"
 				type: "item"
 			}]
-			title: "Cooking with the power of Diamonds"
+			title: "用钻石的力量烹饪"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["58D5BD3106BFD94A"]
 			description: [
-				"This block is part of a multi-block kitchen."
+				"这个方块是多方快厨房的一部分。"
 				""
-				"This will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block."
+				"它可以显示你现在物品栏中物品能做的食物配方，或者是储存在多方块厨房物品的配方。"
 				""
-				"You can finally create a nice kitchen in Minecraft."
+				"你可以在游戏中建造一个不错的厨房。"
 			]
 			id: "28C9EDBF6607E180"
 			rewards: [
@@ -622,22 +622,22 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Betty White was born before Sliced Bread"
+			subtitle: "贝蒂·怀特出生时间比切片面包的发明时间还要早"
 			tasks: [{
 				id: "552C067A28FB8869"
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			title: "THE BEST THING SINCE SLICED BREAD"
+			title: "自切片面包以来最伟大的发明"
 			x: 0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This works just like the kitchen counter, except in the air."
+				"跟厨房柜台一样，除了放在地上不好看之外"
 				""
-				"And you can't put things on top of it."
+				"但它看起来没有能放置物品的台面。"
 			]
 			hide_dependency_lines: true
 			id: "58495CFBF4F20CE9"
@@ -660,23 +660,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "So much room for activities!"
+			subtitle: "存储空间很大"
 			tasks: [{
 				count: 2L
 				id: "1DAD3C12FDEB5CD4"
 				item: "cookingforblockheads:cabinet"
 				type: "item"
 			}]
-			title: "Even More Storage"
+			title: "存储更多"
 			x: 0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This block stores items for cooking."
+				"这个方块可以存储与做饭有关的物品"
 				""
-				"You can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
+				"你也可以把多方块厨房的一些物品，比如吐司机或罐中牛，放在上面。"
 			]
 			hide_dependency_lines: true
 			id: "37CA6F9F0226F10E"
@@ -699,23 +699,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&oWe&r need more cooking space."
+			subtitle: "&o我们&r需要更多烹饪空间。"
 			tasks: [{
 				count: 2L
 				id: "766C32B477A216B8"
 				item: "cookingforblockheads:counter"
 				type: "item"
 			}]
-			title: "I need more cooking space."
+			title: "我需要更多烹饪空间。"
 			x: 2.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"Stores items in the multi-block kitchen. Stack them on top of each other!"
+				"在多方块厨房存储物品。把它们从下往上叠放在一起！"
 				""
-				"You can also shift-right click on it to open then door, and you can just right click items right in."
+				"你也可以shift加右键让门一直开着（两格高时这样点上方的方块），你当然可以直接右键拿取里面的物品。"
 			]
 			hide_dependency_lines: true
 			id: "66815AB6FDACCAB7"
@@ -733,20 +733,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "You'll open it, close it, then open it again, just because you're bored."
+			subtitle: "你会打开它，关上它，再打开它……因为你挺无聊的。"
 			tasks: [{
 				count: 2L
 				id: "1571EF760DE41F63"
 				item: "cookingforblockheads:fridge"
 				type: "item"
 			}]
-			title: "The Fridge"
+			title: "冰箱"
 			x: -0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: ["This block enables smelting recipes in your kitchen multi-block!"]
+			description: ["这个方块可以烤一些食物。"]
 			hide_dependency_lines: true
 			id: "7CB3FCD789747EF5"
 			rewards: [
@@ -769,24 +769,24 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "No Timer Needed"
+			subtitle: "不需要计时器"
 			tasks: [{
 				id: "37D8D79B6B216212"
 				item: "cookingforblockheads:oven"
 				type: "item"
 			}]
-			title: "Honey, there's a Furnace in the Kitchen"
+			title: "亲爱的，这是厨房里的炉子。"
 			x: 1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
+				"这个方块可以定期产出牛奶，可以为多方块厨房的某些食物配方提供牛奶。"
 				""
-				"To get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it."
+				"要想获取罐中牛，把罐子放在洞里。把奶牛引到那个装罐子的洞里，然后用铁砧从上面砸下去。"
 				""
-				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
+				"我不知道这种玻璃是什么做的，但是它比我和鸡之间的关系还要坚固"
 			]
 			hide_dependency_lines: true
 			id: "47764EFC822E462A"
@@ -809,19 +809,19 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
+			subtitle: "非凡的牛奶来源……狭小的生活空间。"
 			tasks: [{
 				id: "193EA9F7C05B6F38"
 				item: "cookingforblockheads:cow_jar"
 				type: "item"
 			}]
-			title: "A Cow in a Jar"
+			title: "罐中牛"
 			x: 0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7CB3FCD789747EF5"]
-			description: ["Allows you to attach power to the Stove."]
+			description: ["可以让烤炉利用能量烤制食物。"]
 			id: "1515B32545F51266"
 			rewards: [
 				{
@@ -848,13 +848,13 @@
 				item: "cookingforblockheads:heating_unit"
 				type: "item"
 			}]
-			title: "Heating Upgrade"
+			title: "加热升级"
 			x: 1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["66815AB6FDACCAB7"]
-			description: ["Provides Ice and Snow recipes!"]
+			description: ["为合成提供冰和雪的材料！"]
 			id: "13AFCD3B6F62B986"
 			optional: true
 			rewards: [
@@ -882,13 +882,13 @@
 				item: "cookingforblockheads:ice_unit"
 				type: "item"
 			}]
-			title: "Ice, Ice, Baby"
+			title: "宝贝，吃冰啦"
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5A51E26D66D1273B"]
-			description: ["Use the Industrial Hemp to create string."]
+			description: ["使用工业大麻制作线。"]
 			id: "1CBEB3ABB4260CC2"
 			rewards: [{
 				id: "3AE014AE6CF77A06"
@@ -901,7 +901,7 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			title: "String from Seeds!"
+			title: "种出来的线！"
 			x: -7.0d
 			y: -1.0d
 		}
@@ -910,7 +910,7 @@
 				"659A903F97F93BE2"
 				"1D48298525EEADC9"
 			]
-			description: ["Time to bake a cake, if you've got some milk and eggs ready."]
+			description: ["是时候做个蛋糕了，如果你已经有一些牛奶和鸡蛋。"]
 			id: "0893EFCAC7031FEA"
 			rewards: [
 				{
@@ -937,13 +937,13 @@
 				item: "minecraft:cake"
 				type: "item"
 			}]
-			title: "You can have your Cake and Eat it too."
+			title: "吃和装饰，不可兼得"
 			x: -8.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["361DFDB1E1352D6B"]
-			description: ["You should have everything you need already."]
+			description: ["你应该已经有了你需求的所有东西。"]
 			id: "1D48298525EEADC9"
 			rewards: [
 				{
@@ -958,23 +958,23 @@
 					xp: 10
 				}
 			]
-			subtitle: "Pour some sugar on me."
+			subtitle: "给我倒一些糖。"
 			tasks: [{
 				count: 3L
 				id: "56CAB3D2E3421C7C"
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			title: "You so sweet."
+			title: "你太甜了。"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This block provides water to the multi-block kitchen."
+				"这个方块为多方块厨房提供水。"
 				""
-				"It can also provide infinite water by pumping water out via cables or pipes."
+				"它可以通过线缆或管道输出无限的水。"
 			]
 			hide_dependency_lines: true
 			id: "0EFF1AA37772156B"
@@ -997,16 +997,16 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Why Use 3 Block when 1 Block Do Trick"
+			subtitle: "一个方块就能解决的事情，为什么要用三个方块来做呢？"
 			tasks: [{
 				id: "2872A1297BE6C40D"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			title: "The Sink = Infinite Water"
+			title: "水槽=无限水"
 			x: -1.0d
 			y: 6.5d
 		}
 	]
-	title: "Food and Farming"
+	title: "食物与农牧"
 }
