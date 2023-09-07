@@ -12,9 +12,9 @@
 		{
 			dependencies: ["54D6F7F8FE859729"]
 			description: [
-				"The &9Infusion Altar&r is the bread and butter of creating &aSeeds&r in the mod. You'll need to create the Altar itself, as well as 8 Pedestals."
+				"&9注魔祭坛&r是这个模组中非常重要的制作&a种子&r的途径。你要制造祭坛它本身，还有8个注魔基座。"
 				""
-				"Placing the Altar down first will show you where to put the Pedestals. To craft a seed, place the required mats in each pedestal, then give a redstone signal to the Altar."
+				"把祭坛放在地上，就会有投影显示在哪里摆放基座。要想制作一个种子，需要在每个基座上放置所需的材料，然后给祭坛一个红石信号。"
 			]
 			hide: true
 			id: "6D750A38944E9B68"
@@ -45,7 +45,7 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Infusion Altar&r"
+			title: "&d注魔祭坛&r"
 			x: -18.799999999999997d
 			y: 0.7999999999999998d
 		}
@@ -77,9 +77,9 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"You'll want to start growing &aInferium&r as soon as you can!"
+				"越早种植&a下级种子&r越好！"
 				""
-				"While not required for growing Inferium seeds, you can also create &eEssence Farmland&r that will increase the growth speed of the seeds. However, certain seeds will require certain farmlands to be planted on."
+				"如果下级种子生长太慢满足不了需求，你可以制作&e精华耕地&r来增加种子的生长速度。然而，一个种子必须种在与其等级一致的耕地上才会有加成。"
 			]
 			hide: true
 			id: "7DFF18CFEB0B8DBE"
@@ -109,7 +109,7 @@
 					type: "item"
 				}
 			]
-			title: "Growing &aInferium&r"
+			title: "种植&a下级种子&r"
 			x: -19.5d
 			y: -3.0d
 		}
@@ -291,11 +291,11 @@
 		{
 			dependencies: ["54D6F7F8FE859729"]
 			description: [
-				"Most seeds are simple to make, but to make &9Mob Seeds&r, you'll need to head to the Nether to pick up some &8Soulium&r."
+				"大部分种子都很容易制作，但是要想制作&9生物种子&r，你需要前往下界找一些&8灵魂矿&r。"
 				""
-				"With the stone and ore that you find, you'll need to use these to make the &3Soulium Dagger&r and &3Soul Jars&r. Using the dagger to kill mobs, you'll be able to gather their &bsouls&r, which are used in the Infusion Altar to create the respective mob seeds."
+				"你应该找到这样的石头和矿石了，现在你需要用它们来做一把&3灵魂匕首&r和&3灵魂瓶&r。使用这把匕首击杀生物，你就能收集它们的&b灵魂&r，灵魂可用于注魔祭坛制造各自生物的种子。"
 				""
-				"Alternatively, you can fill Soul Jars inside of the &3Soul Extractor&r by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul."
+				"你也可以把灵魂瓶放入&3灵魂提取器&r，然后把生物的掉落物放入机器，这样就能填充一部分灵魂到瓶子里。例如，加入腐肉会向灵魂瓶填入一部分僵尸灵魂。"
 			]
 			hide: true
 			id: "75560045ED084900"
@@ -336,7 +336,7 @@
 					type: "item"
 				}
 			]
-			title: "Creating Mob Seeds"
+			title: "制造生物种子"
 			x: -18.799999999999997d
 			y: 2.3d
 		}
@@ -654,7 +654,7 @@
 				item: "mysticalagriculture:cow_seeds"
 				type: "item"
 			}]
-			title: "Meow Meow I'm a Cow... NO!"
+			title: "哞哞，我是只牛"
 			x: -15.0d
 			y: 1.5d
 		}
@@ -705,7 +705,7 @@
 				item: "mysticalagriculture:sheep_seeds"
 				type: "item"
 			}]
-			title: "Beep Beep I'm a Sheep"
+			title: "咩咩，我是只羊"
 			x: -14.0d
 			y: 1.5d
 		}
@@ -1713,7 +1713,7 @@
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["Requires a Crux (Next Quest)"]
+			description: ["需要一个核心（下一个任务）"]
 			id: "6AB1C7B6251FE9F5"
 			rewards: [
 				{
@@ -1740,9 +1740,9 @@
 		{
 			dependencies: ["54D6F7F8FE859729"]
 			description: [
-				"The &9Tinkering Table&r is used to upgrade &aEssence Gear&r with &dAugments&r."
+				"&9工具装配台&r可以使用各种&d升级&r来增强&a精华工具/盔甲&r。"
 				""
-				"Augments can be made using the Infusion Altar. Just like the Essences, Augments have tiers!"
+				"升级能用注魔祭坛制作。就像精华一样，升级也是有等级的！"
 			]
 			hide: true
 			id: "6A4C49AE72E98727"
@@ -1777,11 +1777,11 @@
 		}
 		{
 			description: [
-				"&dEssence&r is the starting point for all of your growing needs in Mystical Agriculture. "
+				"&d精华&r是发展神秘农业的基础。"
 				""
-				"&eInferium Essence&r is the base tier of all essences. You can get this from sieving, killing mobs, or by making seeds to grow them!"
+				"&e下级精华&r是所有精华中最基础的等级。你可以通过采矿，杀怪或制作种子种植来获取它！"
 				""
-				"To make the bigger and better essences, you'll need to make an &9Infusion Crystal&r. "
+				"要想制作更多更好的的精华，你需要做一个&9注魔水晶&r。"
 			]
 			id: "1CC4F8570A7A99EB"
 			rewards: [
@@ -1815,18 +1815,18 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "&aInferium Essence&r"
+			title: "&a下级精华&r"
 			x: -19.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["54D6F7F8FE859729"]
 			description: [
-				"The &9Infusion Crystal&r is used to upgrade to higher tier &dEssences&r."
+				"&9注魔水晶&r用于升级&d精华&r。"
 				""
-				"To start, combining 4 Inferium with the Crystal will give you the next tier, &ePrudentium&r. 4 Prudientium Essences will upgrade to &cTertium&r, and so on."
+				"用4个下级精华和注魔水晶合成下一级的精华————&e初级精华&r。4个初级精华可以升级成&c中极精华&r，以此类推。"
 				""
-				"To continue your journey, you'll need to have plenty of these as they do have a durability! Eventually, you'll be able to make a crystal that doesn't break."
+				"要想持续发展神秘农业，你需要很多这样的水晶，因为它们是有耐久的！最后，你可以制作一个不会损坏的终极注魔水晶。"
 			]
 			hide: true
 			id: "05618FE80F2E0372"
@@ -1855,16 +1855,16 @@
 				}
 				type: "item"
 			}]
-			title: "&9The Infusion Crystal&r"
+			title: "&9注魔水晶&r"
 			x: -20.200000000000003d
 			y: 0.7999999999999998d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"&9Growth Accelerators&r very slightly increase the growth speed of a seed when placed directly underneath the farmland. Each tier has a range of how many blocks \"up\" it can accelerate, with Inferium being the lowest at 12."
+				"&9生长加速器&r被直接放到耕地下面时，可以轻微提高种子的生长速度。每一级加速器都有各自的加速一格耕地可以堆叠的最大数量。下级的最少，只有12格。"
 				""
-				"Note: Growth Accelerators of all tiers provide the same rate of growth ticks. Higher tiers however have a larger range, so you can stack more of them below a single plant. It doesn't matter which tier you use as long as the Growth Accelerator is placed within its max range."
+				"注意：所有生长加速器的加速效果都是一样的，更高级的只是最大堆叠数量更多。只要生长加速器的数量没到达最大限制，不管什么等级加速效果都一样。"
 			]
 			hide: true
 			id: "4821419D44F8083F"
@@ -1886,7 +1886,7 @@
 				item: "mysticalagriculture:inferium_growth_accelerator"
 				type: "item"
 			}]
-			title: "Speeding Up Growth"
+			title: "加速生长"
 			x: -20.5d
 			y: -0.5d
 		}
@@ -1957,9 +1957,9 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"The &aWatering Can&r is used to increase the speed that crops grow. Higher tiers have a larger area of effect. To use this, fill it up with some water by right clicking some water, then hold right click near your crops to water them!"
+				"&a洒水壶&r用于加速作物生长，等级越高作用范围越大。要想使用它，右键水来给它装满水，然后对你附近的作物长按右键给它们浇水！"
 				""
-				"Tip: You can shift-right click while looking in the air with the watering can to enable auto-watering."
+				"提示：那你可以用洒水壶对着空气shift加右键开启自动洒水模式。"
 			]
 			hide: true
 			id: "62D04566426DD979"
@@ -2123,7 +2123,7 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["Have too many extra seeds? These will convert the extra seeds to the respective Essence, at the cost of fuel. These can also be upgraded!"]
+			description: ["有太多额外的种子了？这台机器可以把额外的种子转变成对应的精华，而且只需要一些燃料。它也可以升级！"]
 			hide: true
 			id: "722B66145690D56B"
 			rewards: [
@@ -2246,9 +2246,9 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"Better than a golden apple, and a tasty snack!"
+				"好吃的零食，比金苹果还要好！"
 				""
-				"Higher tiers give more hunger and saturation, as well as more buffs."
+				"等级越高补的饥饿值和饱食度越多，增益效果也会更好。"
 			]
 			hide: true
 			id: "1F88C697817A7680"
@@ -2356,9 +2356,9 @@
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"To start your journey making &aEssence Gear&r, you'll need to make the Inferium Armor first."
+				"开始制造&a精华装备&r，你需要先锻造下级盔甲。"
 				""
-				"This gear can be upgraded to higher tiers, just like the Essences. You can also &9Augment&r them with the &bTinkering Table&r!"
+				"装备可以升级，就像精华一样。你也可以使用&b工具装配台&r来加入&9升级&r。"
 			]
 			hide: true
 			hide_dependency_lines: false
@@ -2428,7 +2428,7 @@
 					type: "item"
 				}
 			]
-			title: "&aEssence Gear&r"
+			title: "&a精华装备&r"
 			x: -18.0d
 			y: -1.5d
 		}
@@ -2501,7 +2501,7 @@
 					type: "item"
 				}
 			]
-			title: "&2Prudentium Armor&r"
+			title: "&2初级精华盔甲&r"
 			x: -13.0d
 			y: -1.5d
 		}
@@ -2574,7 +2574,7 @@
 					type: "item"
 				}
 			]
-			title: "&cTertium Armor"
+			title: "&c中级精华盔甲"
 			x: -8.0d
 			y: -1.5d
 		}
@@ -2647,7 +2647,7 @@
 					type: "item"
 				}
 			]
-			title: "&9Imperium Armor"
+			title: "&9高级精华盔甲"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -2720,13 +2720,13 @@
 					type: "item"
 				}
 			]
-			title: "&4Supremium Armor"
+			title: "&4终极精华盔甲"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4A96A0456680837C"]
-			description: ["Place this under the soil to allow Nether Star Seeds to grow."]
+			description: ["把它放到泥土下方就可以种植下界之星种子了。"]
 			id: "7BBCE618001884B1"
 			rewards: [{
 				id: "433A4B914A5FA642"
@@ -2744,7 +2744,7 @@
 		}
 		{
 			dependencies: ["6AB1C7B6251FE9F5"]
-			description: ["Place this under the soil to allow Dragon Egg Seeds to grow."]
+			description: ["把它放到泥土下方就可以种植龙蛋种子了。"]
 			id: "7B7504F386DABBDD"
 			rewards: [{
 				id: "7A9B43198D240FCA"
@@ -2762,7 +2762,7 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["This is the Tier 2 Essence, made by combining 4 Inferium together with an Infusion Crystal."]
+			description: ["这是2级的精华，用4个下级精华和注魔水晶合成而来。"]
 			hide: true
 			hide_dependency_lines: true
 			id: "73350AD668200E99"
@@ -2781,13 +2781,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "&bTier 2&r"
+			subtitle: "&b等级2&r"
 			tasks: [{
 				id: "4B2621F8D8FA7CA7"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: "&2Prudentium Essence&r"
+			title: "&2初级精华&r"
 			x: -14.5d
 			y: -1.5d
 		}
@@ -2811,13 +2811,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&bTier 3"
+			subtitle: "&b等级3"
 			tasks: [{
 				id: "6A85B770B8EA032B"
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: "&cTertium Essence"
+			title: "&c中级精华"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -2841,13 +2841,13 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&bTier 4"
+			subtitle: "&b等级4"
 			tasks: [{
 				id: "4BEC4730588463FE"
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: "&9Imperium Essence"
+			title: "&9高级精华"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -2871,13 +2871,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "&bTier 5"
+			subtitle: "&b等级5"
 			tasks: [{
 				id: "247349D4951C789F"
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: "&4Supremium Essence"
+			title: "&4终极精华"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -2901,13 +2901,13 @@
 			]
 			shape: "hexagon"
 			size: 2.5d
-			subtitle: "&bTier 6"
+			subtitle: "&b等级6"
 			tasks: [{
 				id: "179DC208291D3C90"
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: "&1Insanium Essence"
+			title: "&1究极精华"
 			x: 5.0d
 			y: -1.5d
 		}
@@ -2939,7 +2939,7 @@
 				}
 				type: "item"
 			}]
-			title: "&cAwakened Watering&r"
+			title: "&c觉醒洒水壶&r"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -3010,16 +3010,16 @@
 					type: "item"
 				}
 			]
-			title: "&cAwakened Armor&r"
+			title: "&c觉醒盔甲&r"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"Starting with Inferium Essence, you can create ingots to make both Essence &9Tools&r and &9Armor&r."
+				"你可以把下级精华做成锭，然后制作精华&9工具&r和&9盔甲&r。"
 				""
-				"Essence tools can be upgraded to higher tiers, and just like the Armor, they can be &5Augmented&r in the &3Tinkering Table&r."
+				"精华工具可以升级。像盔甲一样，工具也可以在&3工具装配台&r里&5升级&r。"
 			]
 			hide: true
 			id: "4EF5DE3FBA2A7AE3"
@@ -3130,10 +3130,10 @@
 						]
 					}
 				}
-				title: "Inferium Tools and Weapons"
+				title: "下级精华工具和武器"
 				type: "item"
 			}]
-			title: "&aEssence Tools and Weapons&r"
+			title: "&a精华工具和武器&r"
 			x: -21.0d
 			y: -1.5d
 		}
@@ -3247,10 +3247,10 @@
 						]
 					}
 				}
-				title: "Prudentium Tools and Weapons"
+				title: "初级精华工具和武器"
 				type: "item"
 			}]
-			title: "&2Prudentium Tools and Weapons"
+			title: "&2初级精华工具和武器"
 			x: -16.0d
 			y: -1.5d
 		}
@@ -3364,10 +3364,10 @@
 						]
 					}
 				}
-				title: "Tertium Tools and Weapons"
+				title: "中级精华工具和武器"
 				type: "item"
 			}]
-			title: "&cTertium Tools and Weapons"
+			title: "&c中极精华工具和武器"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -3487,10 +3487,10 @@
 						]
 					}
 				}
-				title: "Imperium Tools and Weapons"
+				title: "高级精华工具和武器"
 				type: "item"
 			}]
-			title: "&9Imperium Tools and Weapons"
+			title: "&9高级精华工具和武器"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -3568,10 +3568,10 @@
 						]
 					}
 				}
-				title: "Supremium Tools and Weapons"
+				title: "终极精华工具和武器"
 				type: "item"
 			}]
-			title: "&4Supremium Tools and Weapons"
+			title: "&4终极精华工具和武器"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -3649,10 +3649,10 @@
 						]
 					}
 				}
-				title: "Awakened Supremium Tools and Weapons"
+				title: "终极觉醒精华工具和武器"
 				type: "item"
 			}]
-			title: "&cAwakened Tools and Weapons&r"
+			title: "&c终极觉醒精华工具和武器&r"
 			x: 0.5d
 			y: 5.5d
 		}
@@ -3687,19 +3687,19 @@
 			]
 			shape: "octagon"
 			size: 2.5d
-			subtitle: "&bTier: Awakened"
+			subtitle: "&b等级：觉醒"
 			tasks: [{
 				id: "3DB6441F3AE36AAB"
 				item: "mysticalagriculture:awakened_supremium_block"
 				type: "item"
 			}]
-			title: "&cAwakened Supremium Essence"
+			title: "&c终极觉醒精华"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["202B1F54D3F06DAB"]
-			description: ["This special essence is used for making the &6ATM Star&r."]
+			description: ["这个特殊的精华可以用于制作&6ATM之星&r。"]
 			id: "7AD83A26A52C0983"
 			rewards: [
 				{
@@ -3732,9 +3732,9 @@
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
 			description: [
-				"To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as a new type of pedestal called the &cEssence Vessel&r."
+				"要想让终极精华觉醒，你需要制作一个新的祭坛和四个新的基座，还要一种新类型的叫做&c精华储罐&r的基座。"
 				""
-				"The Essence Vessels will require the starter Element Essences to fill: Fire, Water, Earth, and Air."
+				"精华储罐需要填入基础的精华：火，水，地和风。"
 			]
 			hide_dependency_lines: false
 			id: "33D23C65E7274A8F"
@@ -3763,13 +3763,13 @@
 					type: "item"
 				}
 			]
-			title: "&dThe Awakening&r"
+			title: "&d觉醒&r"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			description: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
+			description: ["这种特殊的&e粉&r在使用带有&d神秘教化&r附魔属性的&d精华武器&r击杀末影龙或凋灵时掉落。"]
 			hide: true
 			hide_dependency_lines: false
 			id: "1CF8263756EE8F2A"
@@ -3792,16 +3792,16 @@
 				item: "mysticalagriculture:cognizant_dust"
 				type: "item"
 			}]
-			title: "&5Cognizant Dust"
+			title: "&5认知粉"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
 			description: [
-				"&bProsperity Shards&r are used as one of the main crafting mats for several of the recipes in Mystical Agriculture, like seeds, ingots, and more."
+				"&b活化水晶碎片&r是神秘农业种的一种主要合成材料。一些种子、锭等物品的合成都需要它。"
 				""
-				"You'll find these from mining!"
+				"你会在挖矿的时候发现它！"
 			]
 			hide: true
 			id: "54D6F7F8FE859729"
@@ -3816,10 +3816,10 @@
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
-			title: "Prosperity Shards"
+			title: "活化水晶碎片"
 			x: -19.5d
 			y: 1.5d
 		}
 	]
-	title: "Mystical Agriculture"
+	title: "神秘农业"
 }
